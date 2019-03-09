@@ -1,0 +1,13 @@
+74fb44863084275b952f21ec6a024af0e2e75cb8 PM-runtime: Fix deadlock when canceling hrtimer
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <1550735942-3569-1-git-send-email-vincent.guittot@linaro.org> ("[PATCH] PM-runtime: fix deadlock when canceling hrtimer")
+DETAILS:
+  - Found corresponding patch in mail index
+  - was sent to: linux-pm@vger.kernel.org, linux-kernel@vger.kernel.org
+  - identified in pasta dataset:
+    ./pasta compare '<1550735942-3569-1-git-send-email-vincent.guittot@linaro.org>' (displays patch)
+  - comparison:
+    ./pasta compare '<1550735942-3569-1-git-send-email-vincent.guittot@linaro.org>' 74fb44863084275b952f21ec6a024af0e2e75cb8
+    0.84 message and 0.00 diff, diff lines ratio: 0.83
+TODO:
+  - PASTA: consider that a change in uppercase/lowercase writing in the commit message header is very minor change

@@ -1,0 +1,14 @@
+c7c0d8df0b94a67377555a550b8d66ee2ad2f4ed tee: optee: add missing of_node_put after of_device_is_available
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <1550928043-14889-6-git-send-email-Julia.Lawall@lip6.fr>
+DETAILS:
+  - found in gmail export
+  - was sent to kernel-janitors@vger.kernel.org, linux-kernel@vger.kernel.org
+    - Date: Sat, 23 Feb 2019 14:20:36 +0100
+  - check pasta dataset:
+    ./pasta compare '<1550928043-14889-6-git-send-email-Julia.Lawall@lip6.fr>' (displays patch)
+  - comparison:
+    ./pasta compare '<1550928043-14889-6-git-send-email-Julia.Lawall@lip6.fr>' c7c0d8df0b94a67377555a550b8d66ee2ad2f4ed
+    1.00 message and 0.00 diff, diff lines ratio: 1.00
+TODO:
+  - PASTA: why did it not match this patch and commit, although it seems to be a perfect match?

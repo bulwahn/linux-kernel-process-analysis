@@ -1,0 +1,17 @@
+338cfaad4993d3bc35a740e28981747770a65f90 slub: fix SLAB_CONSISTENCY_CHECKS + KASAN_SW_TAGS
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <20190209044128.3290-1-cai@lca.pw> ("slub: fix SLAB_CONSISTENCY_CHECKS + KASAN_SW_TAGS")
+DETAILS:
+  - was not in gmail export
+  - was sent to linux-mm@kvack.org, linux-kernel@vger.kernel.org on Fri, 8 Feb 2019 23:41:28 -0500
+  - identified in dataset:
+    ./pasta compare '<20190209044128.3290-1-cai@lca.pw>'
+  - comparison:
+    ./pasta compare '<20190209044128.3290-1-cai@lca.pw>' 338cfaad4993d3bc35a740e28981747770a65f90
+    0.84 message and 1.00 diff, diff lines ratio: 0.80
+  - other sources:
+    - https://patchwork.kernel.org/patch/10804087/
+    - http://lkml.kernel.org/r/20190209044128.3290-1-cai@lca.pw
+    - https://lore.kernel.org/lkml/20190209044128.3290-1-cai@lca.pw/T/#u
+TODO:
+  - PASTA: Consider to use "Link: http://lkml.kernel.org/r/<Message-ID>" as further input for matching

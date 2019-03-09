@@ -1,0 +1,6 @@
+1c163f4c7b3f621efff9b28a47abb36f7378d783 Linux 5.0
+c7c0d8df0b94a67377555a550b8d66ee2ad2f4ed tee: optee: add missing of_node_put after of_device_is_available
+2216322919c8608a448d7ebc560a845238a5d6b6 drm: Block fb changes for async plane updates
+5c27ff5db1491a947264d6d4e4cbe43ae6535bae mmc: tmio_mmc_core: don't claim spurious interrupts
+0a1d52994d440e21def1c2174932410b4f2a98a1 mm: enforce min addr even if capable() in expand_downwards()
+53a41cb7ed381edee91029cdcabe9b3250f43f4d Revert "x86/fault: BUG() when uaccess helpers fault on kernel addresses"

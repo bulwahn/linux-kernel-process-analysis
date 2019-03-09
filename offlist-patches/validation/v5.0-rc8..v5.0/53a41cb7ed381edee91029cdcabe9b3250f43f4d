@@ -1,0 +1,2 @@
+53a41cb7ed381edee91029cdcabe9b3250f43f4d Revert "x86/fault: BUG() when uaccess helpers fault on kernel addresses"
+ASSESSMENT: REVERT

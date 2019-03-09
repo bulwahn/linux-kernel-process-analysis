@@ -1,0 +1,11 @@
+6ea183d60c469560e7b08a83c9804299e84ec9eb mm: handle lru_add_drain_all for UP properly
+ASSESSMENT: OFF-LIST PATCH
+MESSAGE-ID: <20190213124334.GH4525@dhcp22.suse.cz>
+  - identified in dataset:
+    ./pasta compare '<20190213124334.GH4525@dhcp22.suse.cz>' (displays message, but does not split context before message)
+  - comparison:
+   ./pasta compare '<20190213124334.GH4525@dhcp22.suse.cz>' 6ea183d60c469560e7b08a83c9804299e84ec9eb
+    0.36 message and 1.00 diff, diff lines ratio: 0.59
+  - Patch was significantly modified by the maintainer before it was committed to the tree, but it was not sent to the mailing list.
+TODO:
+  - PASTA: consider to identify and handle inline patches

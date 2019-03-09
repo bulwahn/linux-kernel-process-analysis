@@ -1,0 +1,11 @@
+d5e3c55e01d8b1774b37b4647c30fb22f1d39077 ARC: uacces: remove lp_start, lp_end from clobber list
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - Not found in gmail export
+  - Not found anything with google search
+  - Found PR from Author Vineet Gupta <vgupta@synopsys.com> to Linus
+    - Message-ID: <3c904d38-fba8-dfa7-fa56-4817abfd58de@synopsys.com> ("[GIT PULL] ARC updates for 5.0 final")
+  - Author is maintainer
+TODO:
+  - MAIL TO AUTHOR & MAINTAINER:
+    ask to confirm that this was an off-list patch

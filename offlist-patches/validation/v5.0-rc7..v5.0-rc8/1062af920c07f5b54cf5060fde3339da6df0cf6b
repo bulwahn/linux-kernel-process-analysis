@@ -1,0 +1,14 @@
+1062af920c07f5b54cf5060fde3339da6df0cf6b tmpfs: fix link accounting when a tmpfile is linked in
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <alpine.LSU.2.11.1902182134370.7035@eggly.anvils>
+DETAILS:
+  - found in gmail-export
+  - sent to linux-kernel@vger.kernel.org, linux-fsdevel@vger.kernel.org, linux-mm@kvack.org
+  - uses "From:" in patch
+  - identified in dataset:
+    ./pasta compare '<alpine.LSU.2.11.1902182134370.7035@eggly.anvils>' (displays patch)
+  - comparison:
+    ./pasta compare '<alpine.LSU.2.11.1902182134370.7035@eggly.anvils>' 1062af920c07f5b54cf5060fde3339da6df0cf6b
+    1.00 message and 0.00 diff, diff lines ratio: 1.00
+TODO:
+  - PASTA: Is it not matched because Author and Sender do not match?

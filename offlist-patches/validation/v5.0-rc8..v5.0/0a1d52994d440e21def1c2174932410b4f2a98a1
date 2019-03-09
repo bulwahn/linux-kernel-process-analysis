@@ -1,0 +1,8 @@
+0a1d52994d440e21def1c2174932410b4f2a98a1 mm: enforce min addr even if capable() in expand_downwards()
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not found on gmail export
+  - Google search on commit message header only showed backports to 4.9, 4.19, 4.20
+TODO:
+  - MAIL TO AUTHOR & MAINTAINER:
+    Was this a security patch as hence discussed off-list?
