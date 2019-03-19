@@ -8,4 +8,4 @@ DETAILS:
     ./pasta compare '<7e293159-0ae3-82fb-2723-04e91d652906@cogentembedded.com>' 5c27ff5db1491a947264d6d4e4cbe43ae6535bae
     1.00 message and 0.00 diff, diff lines ratio: 1.00
 TODO:
-   - PASTA: why did it not match this patch and commit, although it seems to be a perfect match?
+  - PASTA: why did it not match this patch and commit, although it seems to be a perfect match?
