@@ -1,0 +1,14 @@
+b41fdc4a7bf9045e4871c5b15905ea732ffd044f irqchip/gic: Drop support for secondary GIC in non-DT systems
+ASSESSMENT: INLINE PATCH
+MESSAGE-ID: TODO
+DETAILS:
+  - found inline patch with google: https://lkml.org/lkml/2019/3/11/662
+    - Subject: Re: [PATCH] irqchip/gic: fix passing wrong start irq number to irq_alloc_descs() for secondary GICs
+    - TODO: Message ID?
+  - Marc Zyngier <marc.zyngier@arm.com> is author and committer
+  - also mentioned in pull request https://lkml.org/lkml/2019/3/21/257 from Marc Zyngier to Thomas
+    - [GIT PULL] irqchip updates for 5.1-rc2
+  -  https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b41fdc4a7bf9045e4871c5b15905ea732ffd044f
+TODO:
+  - Check manually if inline patch in email matches with commit
+  - PASTA: Consider if we can detect inline patches

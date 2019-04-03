@@ -1,0 +1,16 @@
+8bc086899816214fbc6047c9c7e15fcab49552bf powerpc/mm: Only define MAX_PHYSMEM_BITS in SPARSEMEM configurations
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <20190317011756.abjylw3nzfnc6gnh@decadent.org.uk>
+DETAILS:
+  - Found this email in gmail archive
+    - <20190317011756.abjylw3nzfnc6gnh@decadent.org.uk>
+    - sent to linuxppc-dev@lists.ozlabs.org
+  - git grep '<20190317011756.abjylw3nzfnc6gnh@decadent.org.uk>'
+    linux/resources/mbox/index/pubin.linuxppc-dev-0:2019/03/17 <20190317011756.abjylw3nzfnc6gnh@decadent.org.uk> ff8573f4b8f407f5b6348c4744e249526431b4f1
+    linux/resources/mbox/invalid/1:<20190317011756.abjylw3nzfnc6gnh@decadent.org.uk>
+  - ./pasta compare '<20190317011756.abjylw3nzfnc6gnh@decadent.org.uk>'
+    KeyError: 'Commit or Mail not found: <20190317011756.abjylw3nzfnc6gnh@decadent.org.uk>'
+  - From a first look, it could be a PGP signed patch and pasta seems not to handle that
+TODO:
+  - PASTA: Extend pasta to handle PGP-signed patches
+  - PASTA: Consider to use the whole patch parsing machinery from the patchwork system

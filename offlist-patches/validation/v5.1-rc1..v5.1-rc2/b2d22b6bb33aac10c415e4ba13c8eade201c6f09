@@ -1,0 +1,14 @@
+b2d22b6bb33aac10c415e4ba13c8eade201c6f09 fanotify: Allow copying of file handle to userspace
+ASSESSMENT: INLINE PATCH
+DETAILS:
+  - no patch found in gmail archive and with google search
+  - but patch was discussed in this email thread:
+    - https://lkml.org/lkml/2019/3/11/1145
+    - TODO: proper reference to email thread
+  - TODO CHECK: Jan Kara is author, commiter and ... maintainer (TODO: check if maintainer and of what?)
+  - mentioned in pull request from Jan Kara to Linus
+    - TODO: MESSAGE ID
+    - [GIT PULL] fanotify and inotify fixes for v5.1-rc2
+TODO:
+  - Check manually if inline patch in email matches with commit
+  - PASTA: Consider if we can detect inline patches

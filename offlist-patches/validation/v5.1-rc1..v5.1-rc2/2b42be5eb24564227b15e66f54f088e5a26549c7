@@ -1,0 +1,6 @@
+2b42be5eb24564227b15e66f54f088e5a26549c7 udf: Propagate errors from udf_truncate_extents()
+ASSESSMENT: OFFLIST PATCH
+DETAILS:
+  - TODO
+TODO:
+  - Check if commit "udf: Fix crash on IO error during truncate" is also an offlist patch and what pasta matched that one against

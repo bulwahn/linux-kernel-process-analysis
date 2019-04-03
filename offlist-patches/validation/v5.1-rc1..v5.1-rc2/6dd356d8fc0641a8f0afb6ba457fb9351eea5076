@@ -1,0 +1,9 @@
+6dd356d8fc0641a8f0afb6ba457fb9351eea5076 ARC: unaligned: relax the check for gcc supporting -mno-unaligned-access
+ASSESSMENT: OFFLIST PATCH
+DETAILS:
+  - not found any sent patch in gmail archive and with google search
+  - mentioned in pull request from Vineet Gupta to Linus
+    <84416b56-150b-1725-30de-6ae563862a87@synopsys.com> ("[GIT PULL] ARC updates for 5.1-rc2")
+  - Vineet Gupta <vgupta@synopsys.com> is patch author, committer and ARC maintainer.
+TODO:
+  - Confirm with author and maintainer that this is an offlist patch

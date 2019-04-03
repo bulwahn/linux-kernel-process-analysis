@@ -1,0 +1,10 @@
+cf7d624f8dcc9b833a8489208b6ef6dcc5dd308b cifs: update internal module version number
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - Steve French <stfrench@microsoft.com> is author and commiter
+  - also mentioned in pull request from Steve French <smfrench@gmail.com> to Linus
+    - Subject: [GIT PULL] SMB3 Fixes
+    - TODO: Message-ID: 
+  - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=cf7d624f8dcc9b833a8489208b6ef6dcc5dd308b
+TODO:
+  - MAIL: Confirm offlist patch with Steve French

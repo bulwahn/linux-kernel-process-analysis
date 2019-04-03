@@ -1,0 +1,11 @@
+6f8f89ce1e18de1e391c9c1c14e7738881d1c00c platform/chrome: Fix locking pattern in wilco_ec_mailbox()
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <20190311155838.255314-1-ncrews@chromium.org>
+DETAILS:
+  - found at https://lore.kernel.org/patchwork/patch/1049671/
+  - ./pasta compare '<20190311155838.255314-1-ncrews@chromium.org>' (displays patch)
+  - ./pasta compare '<20190311155838.255314-1-ncrews@chromium.org>' 6f8f89ce1e18de1e391c9c1c14e7738881d1c00
+    0.00 message and 0.00 diff, diff lines ratio: 0.33
+  - discussion on patchwork suggests that the patch was slightly modified offlist when including into the repository.
+TODO:
+  - PASTA: investigate possibilities to detect a matching between the email patch and the commit

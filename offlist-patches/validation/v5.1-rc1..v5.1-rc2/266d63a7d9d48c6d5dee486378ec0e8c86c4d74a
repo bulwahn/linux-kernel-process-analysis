@@ -1,0 +1,9 @@
+266d63a7d9d48c6d5dee486378ec0e8c86c4d74a x86/cpufeature: Fix various quality problems in the <asm/cpu_device_hd.h> header
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not in gmail archive, nothing found with google
+  - Ingo Molnar is author, committer and one of the tip maintainers
+  - mentioned in pull request https://lkml.org/lkml/2019/3/24/327 from Thomas to Linus
+  - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=266d63a7d9d48c6d5dee486378ec0e8c86c4d74a
+TODO:
+  - MAIL: Confirm that this was included in tip as offlist patch

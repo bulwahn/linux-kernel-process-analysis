@@ -1,0 +1,9 @@
+266d63a7d9d48c6d5dee486378ec0e8c86c4d74a x86/cpufeature: Fix various quality problems in the <asm/cpu_device_hd.h> header
+b41fdc4a7bf9045e4871c5b15905ea732ffd044f irqchip/gic: Drop support for secondary GIC in non-DT systems
+cf7d624f8dcc9b833a8489208b6ef6dcc5dd308b cifs: update internal module version number
+8bc086899816214fbc6047c9c7e15fcab49552bf powerpc/mm: Only define MAX_PHYSMEM_BITS in SPARSEMEM configurations
+2b42be5eb24564227b15e66f54f088e5a26549c7 udf: Propagate errors from udf_truncate_extents()
+b2d22b6bb33aac10c415e4ba13c8eade201c6f09 fanotify: Allow copying of file handle to userspace
+6dd356d8fc0641a8f0afb6ba457fb9351eea5076 ARC: unaligned: relax the check for gcc supporting -mno-unaligned-access
+fbe025c3eaf5f52060c2820eddb7357363db0d27 ARC: perf: bpok condition only exists for ARCompact
+6f8f89ce1e18de1e391c9c1c14e7738881d1c00c platform/chrome: Fix locking pattern in wilco_ec_mailbox()
