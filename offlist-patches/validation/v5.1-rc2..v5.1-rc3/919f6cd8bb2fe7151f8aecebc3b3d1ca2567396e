@@ -1,0 +1,13 @@
+919f6cd8bb2fe7151f8aecebc3b3d1ca2567396e KVM: doc: Document the life cycle of a VM and its resources
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <20190215204840.20070-4-sean.j.christopherson@intel.com>
+DETAILS:
+  - Found in gmail archive
+  - git grep '<20190215204840.20070-4-sean.j.christopherson@intel.com>' (showed nothing, probably because it is in the mbox file, not public inbox)
+  - it is in the latest mbox file
+  - ./pasta compare '<20190215204840.20070-4-sean.j.christopherson@intel.com>' (shows patch)
+  - ./pasta compare '<20190215204840.20070-4-sean.j.christopherson@intel.com>' 919f6cd8bb2fe7151f8aecebc3b3d1ca2567396e
+    1.00 message and 0.00 diff, diff lines ratio: 1.00
+  - not matched due to the context above the diff being different; the context below was identical.
+TODO:
+  - PASTA: consider if pasta could handle such a patch better

@@ -1,0 +1,14 @@
+2620327852478e695afb2eebe66c354b3bc456cc fs: fs_parser: fix printk format warning
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <19432668-ffd3-fbb2-af4f-1c8e48f6cc81@infradead.org>
+DETAILS:
+  - https://lore.kernel.org/patchwork/patch/1040234/
+  - $ git grep '19432668-ffd3-fbb2-af4f-1c8e48f6cc81@infradead.org'
+    linux/resources/mbox/index/pubin.lkml-6:2019/02/08 <19432668-ffd3-fbb2-af4f-1c8e48f6cc81@infradead.org> 33b5b9fa3608c993b3fd73ceed36528bf99ef333
+  - ./pasta compare '<19432668-ffd3-fbb2-af4f-1c8e48f6cc81@infradead.org>' (displays patch)
+  - ./pasta compare '<19432668-ffd3-fbb2-af4f-1c8e48f6cc81@infradead.org>' 2620327852478e695afb2eebe66c354b3bc456cc
+    1.00 message and 0.00 diff, diff lines ratio: 1.00
+  - patch email has cut-off hunk header
+  - seems not to be matched due to cut-off hunk header, otherwise identical
+TODO:
+  - PASTA: Check if this can be identified with an adjusted hunk header matching

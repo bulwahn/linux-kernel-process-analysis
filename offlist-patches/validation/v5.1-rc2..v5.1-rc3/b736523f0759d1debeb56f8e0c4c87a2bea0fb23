@@ -1,0 +1,14 @@
+b736523f0759d1debeb56f8e0c4c87a2bea0fb23 include/linux/list.h: fix list_is_first() kernel-doc
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID:  <ddce8b80-9a8a-d52d-3546-87b2211c089a@infradead.org>
+DETAILS:
+  - found in gmail archive
+  - ./pasta compare '<ddce8b80-9a8a-d52d-3546-87b2211c089a@infradead.org>' (displays patch)
+  - ./pasta compare '<ddce8b80-9a8a-d52d-3546-87b2211c089a@infradead.org>' b736523f0759d1debeb56f8e0c4c87a2bea0fb23
+    0.96 message and 0.00 diff, diff lines ratio: 1.00
+  - patch email has cut-off hunk header
+  - seems not to be matched due to cut-off hunk header, otherwise identical
+  - patch has 'From:' which could be lowering the message matching score
+TODO:
+  - PASTA: Check if this can be identified with an adjusted hunk header matching
+  - PASTA: Check if we can handle 'From:' dedicatedly

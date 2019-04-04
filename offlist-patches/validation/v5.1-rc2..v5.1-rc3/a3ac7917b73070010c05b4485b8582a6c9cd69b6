@@ -1,0 +1,7 @@
+a3ac7917b73070010c05b4485b8582a6c9cd69b6 Revert "parport: daisy: use new parport device model"
+ASSESSMENT: REVERT
+DETAILS:
+  - was discussed on lkml
+  https://lkml.org/lkml/2019/3/25/726
+    TODO: what is the message-id of this email thread?
+	[REGRESSION] failed to boot: commit 1aec4211204d parport: daisy: use new parport device model
