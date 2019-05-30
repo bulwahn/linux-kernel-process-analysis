@@ -1,0 +1,49 @@
+
+Processing range v5.1-rc6..v5.1-rc7
+8358e3a8264a228cf2dfb6f3a05c0328f4118f12 io_uring: remove 'state' argument from io_{read,write} path
+35fa71a030caa50458a043560d4814ea9bcd639f io_uring: fail io_uring_register(2) on a dying io_uring instance
+1bfb97b9a51901103677a4d1a2386d223c15bc71 MAINTAINERS: BMIPS: Add internal Broadcom mailing list
+
+v5.1-rc6..v5.1-rc7: 3 of 126
+
+
+8358e3a8264a228cf2dfb6f3a05c0328f4118f12 io_uring: remove 'state' argument from io_{read,write} path
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - nothing found in mail archive, nothing found with google, nothing found in linux-block archive
+  - Jens Axboe <axboe@kernel.dk> is author, committer and IO_URING maintainer
+  - mentioned in pull request from Jens Axboe to Linus
+    - https://lore.kernel.org/linux-block/32d1cc79-7db1-6017-9626-2eb1845dd9e0@kernel.dk/
+TODO:
+  - CONFIRMATION MAIL: Jens Axboe <axboe@kernel.dk>
+
+
+35fa71a030caa50458a043560d4814ea9bcd639f io_uring: fail io_uring_register(2) on a dying io_uring instance
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - nothing found in mail archive, nothing found with google, nothing found in linux-block archive
+  - Jens Axboe <axboe@kernel.dk> is author, committer and IO_URING maintainer
+  - mentioned in pull request from Jens Axboe to Linus
+    - https://lore.kernel.org/linux-block/32d1cc79-7db1-6017-9626-2eb1845dd9e0@kernel.dk/
+TODO:
+  - CONFIRMATION MAIL: Jens Axboe <axboe@kernel.dk>
+
+
+1bfb97b9a51901103677a4d1a2386d223c15bc71 MAINTAINERS: BMIPS: Add internal Broadcom mailing list
+ASSESSMENT: NOT IN DATASET
+MESSAGE-ID: <20190312175005.21264-1-f.fainelli@gmail.com>
+DETAILS:
+  - nothing found in mail archive, nothing found with google
+  - searched in linux-mips archives and found:
+    https://www.linux-mips.org/archives/linux-mips/2019-03/msg00025.html
+  - ./pasta compare '<20190312175005.21264-1-f.fainelli@gmail.com>' (no patch found)
+  - patch not found in https://lore.kernel.org/linux-mips/
+  - only answer and pull request found in https://lore.kernel.org/linux-mips/
+    - see also: https://lore.kernel.org/linux-mips/?q=MAINTAINERS%3A+BMIPS%3A+Add+internal+Broadcom+mailing+list
+  - Florian Fainelli <f.fainelli@gmail.com> is author and BROADCOM * ARCHITECTURE/DRIVER maintainer
+  - Paul Burton <paul.burton@mips.com> is committer and MIPS maintainer
+  - mentioned in pull request
+    - see also: https://lkml.org/lkml/2019/4/22/429
+    - see also: https://patchwork.kernel.org/patch/10911371/
+TODO:
+  - DATASET: Understand why patch was not in lore.kernel.org archive

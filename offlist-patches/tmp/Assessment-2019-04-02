@@ -1,0 +1,39 @@
+919f6cd8bb2fe7151f8aecebc3b3d1ca2567396e KVM: doc: Document the life cycle of a VM and its resources
+ffac839d040619847217647434b2b02469926871 KVM: selftests: disable stack protector for all KVM tests
+4d66623cfba0949b2f0d669bd2ae732124c99ded KVM: x86: remove check on nr_mmu_pages in kvm_arch_commit_memory_region()
+2620327852478e695afb2eebe66c354b3bc456cc fs: fs_parser: fix printk format warning
+b736523f0759d1debeb56f8e0c4c87a2bea0fb23 include/linux/list.h: fix list_is_first() kernel-doc
+9e0a17db517d83d568bb7fa983b54759d4e34f1f arm64: replace memblock_alloc_low with memblock_alloc
+c2fe742ff6e77c5b4fe4ad273191ddf28fdea25e scsi: mpt3sas: Fix kernel panic during expander reset
+7cf77b273a8fc51e7de622fa6691abd4436a9a6b drm/tegra: hub: Fix dereference before check
+b6ffdf27f3d4f1e9af56effe6f86989170d71e95 s390/cpumf: Fix warning from check_processor_id
+152e9b8676c6e788c6bff095c1eaae7b86df5003 s390/vtime: steal time exponential moving average
+01396a374c3d31bc5f8b693026cfa9a657319624 s390/zcrypt: revisit ap device remove procedure
+cd479eccd2e057116d504852814402a1e68ead80 s390: limit brk randomization to 32MB
+fa9463564e77067df81b0b8dec91adbbbc47bfb4 ARM: dts: nomadik: Fix polarity of SPI CS
+a3ac7917b73070010c05b4485b8582a6c9cd69b6 Revert "parport: daisy: use new parport device model"
+
+---
+
+Handled by linux-arm-kernel/1.git inclusion:
+9e0a17db517d83d568bb7fa983b54759d4e34f1f arm64: replace memblock_alloc_low with memblock_alloc
+fa9463564e77067df81b0b8dec91adbbbc47bfb4 ARM: dts: nomadik: Fix polarity of SPI CS
+
+
+after linux-arm-kernel/1.git inclusion:
+
+Processing range v5.1-rc2..v5.1-rc3
+919f6cd8bb2fe7151f8aecebc3b3d1ca2567396e KVM: doc: Document the life cycle of a VM and its resources
+ffac839d040619847217647434b2b02469926871 KVM: selftests: disable stack protector for all KVM tests
+4d66623cfba0949b2f0d669bd2ae732124c99ded KVM: x86: remove check on nr_mmu_pages in kvm_arch_commit_memory_region()
+2620327852478e695afb2eebe66c354b3bc456cc fs: fs_parser: fix printk format warning
+b736523f0759d1debeb56f8e0c4c87a2bea0fb23 include/linux/list.h: fix list_is_first() kernel-doc
+c2fe742ff6e77c5b4fe4ad273191ddf28fdea25e scsi: mpt3sas: Fix kernel panic during expander reset
+7cf77b273a8fc51e7de622fa6691abd4436a9a6b drm/tegra: hub: Fix dereference before check
+b6ffdf27f3d4f1e9af56effe6f86989170d71e95 s390/cpumf: Fix warning from check_processor_id
+152e9b8676c6e788c6bff095c1eaae7b86df5003 s390/vtime: steal time exponential moving average
+01396a374c3d31bc5f8b693026cfa9a657319624 s390/zcrypt: revisit ap device remove procedure
+cd479eccd2e057116d504852814402a1e68ead80 s390: limit brk randomization to 32MB
+a3ac7917b73070010c05b4485b8582a6c9cd69b6 Revert "parport: daisy: use new parport device model"
+
+

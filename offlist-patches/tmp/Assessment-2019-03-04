@@ -1,0 +1,125 @@
+Processing range v5.0-rc1..v5.0-rc2
+19a220dd1e8a1b1d8e5e2f8f4a25313c4b02d527 arm64: defconfig: enable modules for amlogic s400 sound card
+06382deac2b8a49bbc5aaa3c9118fed6da4a1ac1 Revert "staging: rtl8723bs: Mark ACPI table declaration as used"
+48d2ba6257013676e57ff69444d5212031aee763 cifs: update internal module version number
+c715f89c4dab76317c773df2611af2dac4dea2b7 cifs: Fix a tiny potential memory leak
+8428817dc40006dca0a531cfa06e89cb3b41790d cifs: Fix a debug message
+9846ac0143fe9872e92fe2a1ddff868ad05bdbb6 nvme-fabrics: unset write/poll queues for discovery controllers
+e85037a2e90ac9aa448a08927d7a7436206c6000 nvme-tcp: don't ask if controller is fabrics
+e9c2edc098921173920df370c69b5c38fe52df56 nvme-tcp: remove dead code
+8fae268b40f5191227ae7050a99cb2cf1b914ddd nvme-pci: rerun irq setup on IO queue init errors
+f299e0bdbaeb60fd8829f42e53a7457cc5a6f4a2 drm: Fix documentation generation for DP_DPCD_QUIRK_NO_PSR
+107c595c2a277be65b28762f12e1dad243e05623 drm/i915: Skip the ERR_PTR error state
+1035f4a65f58407951d8d2f54c289c2b252e499c drm/i915: Disable PSR in Apple panels
+f0e9943725186ddbdc9718a559c26c5f507262f2 drm/i915/gvt: Fix workload request allocation before request add
+15f77c4ade3364106a3a397f0a8d6fce9d6a6326 drm/nouveau: register backlight on pascal and newer
+d9ed41962ee202f653a5fa8d2ea0f52924abe629 arm64: asm-prototypes: Fix fat-fingered typo in comment
+02b2f549d502b46e68b97ea1452fb8853b3327dd libceph: allow setting abort_on_full for rbd
+f87ce7c43f36d4abff91b19edadd23939f99ff98 tools lib traceevent: Changed return logic of tep_register_event_handler() API
+7604bf0920985c9280c8b24e2f0c3e4ed47f502f doc: trace: fix reference to cpuidle documentation file
+fadcb8f9fc89f7b517ce48f30e0b607b16d99d63 drm/amd/powerplay: drop the unnecessary uclk hard min setting
+abc856259a6dc513868ad91e00a70379825d59c4 drm/amdgpu: make gfx9 enter into rlc safe mode when set MGCG
+96d8f63c44e5d4db48d98c40bb74d0a0e47ae301 drm/amdgpu: Cleanup 2 compiler warnings
+e49cddcd0ab08f2a3bf3fea8554ea45ae1446d26 drm/amdgpu/gfx_v8_0: Reorder the gfx, kiq and kcq rings test sequence
+048b9b0f5ceefb2691834ac62f8459ebb7d3100e drm/amd/powerplay: support BOOTUP_DEFAULT power profile mode
+baf3c982dfbf7b0742039e6fef3f1fe1ba4079ab drm/amdgpu/virtual_dce: No need to pin the cursor bo
+47bbcc1e92385b595e92e11e29076185c820a0b8 drm/amdgpu/virtual_dce: No need to pin the fb's bo
+f8c15790e4d8bdf2d21a5e9d43b5f97983af1222 drm/bridge: tc358767: use DP connector if no panel set
+efe75c494f57890900caf6c8a0667db35bfaf56a riscv: add audit support
+Processing range v5.0-rc2..v5.0-rc3
+0e78f389a7cdc6de7dfd0778733f3b140c981c9e doc: net: fix bad references to network drivers
+31890da0bfdd24b135a258404b93c58a65510c7a btrfs: handle delayed ref head accounting cleanup in abort
+fbfaf851902cd9293f392f3a1735e0543016d530 fix int_sqrt64() for very large numbers
+6e693b3ffecb0b478c7050b44a4842854154f715 x86: uaccess: Inhibit speculation past access_ok() in user_access_begin()
+7bb25a89aad2cc96de188c9ecc89a175360f6fb4 scsi: hisi_sas: Set protection parameters prior to adding SCSI host
+d1f38d995e984db36449661fcbad1649c21883e7 scsi: megaraid_sas: correct an info message
+c45b1fa2433c65e44bdf48f513cb37289f3116b9 nvme-pci: fix nvme_setup_irqs()
+d90a1ca60a1eccb4383fe203c76223ab4c0799ed pvcalls-front: don't return error when the ring is full
+890d14d2d4b57ff5a149309da3ed36c8a529987f fbdev: fbmem: convert CONFIG_FB_LOGO_CENTER into a cmd line option
+7ebec5f43134bbf3dd5f20228ac4c1b55ee73284 drm/nouveau/core: recognise TU102
+f687ccea10d23a9b0faed67ceac535b76604669a RDMA/uverbs: Fix post send success return value in case of error
+35dad45d5cad3c9ca8d6a338cbf668cd7ea86469 drm/amd/display: Detach backlight from stream
+1b504a7bb18fc32a324712a0fc56d667bdabe258 openrisc: remove unneeded code in arch/openrisc/Makefile
+558ee616d177c8225e65c75b6b72952408e64a74 nds32: remove unneeded code in arch/nds32/Makefile
+be3bb599d84b50d27d6077085388afabdd2ee18a ia64: remove redundant 'export AWK'
+889f4ce60ed19cfd16216e96f90e64a0c1181c0d doc: gpio-mvebu: fix broken reference to cp110-system-controller0.txt file
+8217724eb7c51bbec351b23cbc924577b2f4b8e6 doc: bindings: fix bad reference to ARM CPU bindings
+862523297778775a0543110dcbf2ca832782f675 gpiolib-acpi: Remove unnecessary WARN_ON from acpi_gpiochip_free_interrupts
+e4c8ae3e3d6d473bfbfbb5db234792b9f8ddab3b backlight: pwm_bl: Re-add driver internal enabled tracking
+Processing range v5.0-rc3..v5.0-rc4
+e6018c0f5c996e61639adce6a0697391a2861916 sched/wake_q: Document wake_q_add()
+abfd04f738c2625f63e04c8fc7cadb3b7a70d580 qed: Revert error handling changes.
+39d57757467b6346bbc1a1f416e3057f681cf903 nvme-tcp: fix timeout handler
+c13295ad219d8bb0e47942d4cfc8251de449a67e binderfs: rename header to binderfs.h
+0a9019cc8ae0caf97d3d914d178e31ffd37cc48e Staging: wilc1000: unlock on error in init_chip()
+fe2570fbf3dfce39996819deeaf1693ac6d7b5a3 staging: wilc1000: fix memory leak in wilc_add_rx_gtk
+87b6d2c56825c3119a0e64cc208ae6d795810a2e usb: dwc2: gadget: Fix Remote Wakeup interrupt bit clearing
+bbc2cd07c5100514f25ac6e09d2a94521b46b35b drm/msm: honor GPU_READONLY flag
+075c18c3e124a1511ebc10a89f1858c8a77dcb01 dm: add missing trace_block_split() to __split_and_process_bio()
+239b8b34a856777e562373ae0de605536a7ccade ASoC: Intel: Boards: move the codec PLL configuration to _init
+a41d9dbf5dac5b6a1283ee8001f22807d18352ea ASoC: qdsp6: q6asm-dai: Fix a small memory leak
+3391034e18b35bba8904cae457598ac276ac685a ASoC: qdsp6: q6asm-dai: Fix a NULL vs IS_ERR() bug
+eef08e5350618b7a9fdc8ac5b821a925366c8f3f ASoC: qdsp6: q6asm-dai: Off by one in of_q6asm_parse_dai_data()
+28b698b7342c7d5300cfe217cd77ff7d2a55e03d ASoC: pcm512x: Fix a double unlock in pcm512x_digital_mute()
+02a07872f84fc5fe61fa65310ff23bcad166a4f5 ASoC: dma-sh7760: cleanup a debug printk
+687ae9e287b3a1a71e5e1c2a9c96b23d70768821 ASoC: intel: skl: Fix display power regression
+30bac164aca750892b93eef350439a0562a68647 Revert "Change mincore() to count "mapped" pages rather than "cached" pages"
+edcddd4c879af48ec922d680b2d56834c085683b XArray: Fix an arithmetic error in xa_is_err
+19ba9ecf24189bd74d070aa1b1c4bcb9fe4ae849 XArray: Fix typo in comment
+b0606fed6eece16a421034eca0bbea9a08b90e91 XArray: Honour reserved entries in xa_insert
+76b4e52995654af260f14558e0e07b5b039ae202 XArray: Permit storing 2-byte-aligned pointers
+4a31896c5b5a2715ecf4033426aa0a35066d92d6 XArray: Change xa_for_each iterator
+02669b17a433c242a40f01f14b691c9c9d1f8a13 XArray: Turn xa_init_flags into a static inline
+490fd30f859572ac97a51faa31860869744ba97b XArray tests: Add RCU locking
+4d447455e73b47c43dd35fcc38ed823d3182a474 ARC: mm: do_page_fault fixes #1: relinquish mmap_sem if signal arrives while handle_mm_fault
+7dd380c338f1ec20ed46607ccd03541a7683cd67 ARC: boot log: print Action point details
+97e981324d492340e33baa9680780046377b561f ARCv2: boot log: BPU return stack depth
+Processing range v5.0-rc4..v5.0-rc5
+e4cf9e47ab244977d12513bb4610a44f88ad5e68 RISC-V: defconfig: Enable Generic PCIE by default
+b9b9378b49030d1aeca2387660fcd1ac1f306cad cifs: update internal module version number
+c228d294f2040c3a5f5965ff04d4947d0bf6e7da x86: explicitly align IO accesses in memcpy_{to,from}io
+Processing range v5.0-rc5..v5.0-rc6
+0521e8be211cd20d547bff9da2534b7ed6f2c1b9 x86/mm/cpa: Fix set_mce_nospec()
+455e7b387b441ddd1da1df35251c179fe7805b53 mtd: rawnand: fix kernel-doc warnings
+9ab7d228e972b50d06ee28076ab5d0f93e862463 MAINTAINERS: unify reference to xen-devel list
+ee17e5d6201c66492a0e8053190fca2ed2b8457d signal: Make siginmask safe when passed a signal of 0
+2c1cf00eeacb784781cf1c9896b8af001246d339 relay: check return of create_buf_file() properly
+37ea7b630ae5cdea4e8ff381d9d23abfef5939e6 debugfs: debugfs_lookup() should return NULL if not found
+798badf8467f41af6dfbf5621e1fc966c80446fd Revert "staging: erofs: keep corrupted fs from crashing kernel in erofs_namei()"
+add46b3b021263c02d5a7080c58e5b459479fafd xfs: set buffer ops when repair probes for btree type
+fa8db4948f5224dae33a0e783e7dec682e145f88 dm: don't use bio_trim() afterall
+645efa84f6c7566ea863ed37a8b3247247f72e02 dm: add memory barrier before waitqueue_active
+Processing range v5.0-rc6..v5.0-rc7
+388a49959ee4e4e99f160241d9599efa62cd4299 scsi: qla2xxx: Fix panic from use after free in qla2x00_async_tm_cmd
+9659c1af451a92533d2d8dfcecd1a848a08a883b drm/i915/icl: combo port vswing programming changes per BSPEC
+eb0200a4357da100064971689d3a0e9e3cf57f33 gpu: ipu-v3: pre: don't trigger update if buffer address doesn't change
+2c0408dd0d8906b26fe8023889af7adf5e68b2c2 gpu: ipu-v3: Fix i.MX51 CSI control registers offset
+4fb873c9648e383206e0a91cef9b03aa54066aca drm/imx: ignore plane updates on disabled crtcs
+76ce2a80a28ef5caa8cc0cd41ad04138fb7ffeed Rename include/{uapi => }/asm-generic/shmparam.h really
+614db26954ff08fa8e92b04100e31ebc04b817cf Revert "s390/pci: remove bit_lock usage in interrupt handler"
+Processing range v5.0-rc7..v5.0-rc8
+74fb44863084275b952f21ec6a024af0e2e75cb8 PM-runtime: Fix deadlock when canceling hrtimer
+d5e3c55e01d8b1774b37b4647c30fb22f1d39077 ARC: uacces: remove lp_start, lp_end from clobber list
+71d73a0b43c2b101a960c624290c8a053d174cac CREDITS/MAINTAINERS: Retire parisc-linux.org email domain
+0921c41e19028314830b33daa681e46b46477c5e drm/amd/display: Fix negative cursor pos programming
+1062af920c07f5b54cf5060fde3339da6df0cf6b tmpfs: fix link accounting when a tmpfile is linked in
+6ea183d60c469560e7b08a83c9804299e84ec9eb mm: handle lru_add_drain_all for UP properly
+338cfaad4993d3bc35a740e28981747770a65f90 slub: fix SLAB_CONSISTENCY_CHECKS + KASAN_SW_TAGS
+a841c673f1352f607fd3ba85de6c9c49ff2c1e12 revert "initramfs: cleanup incomplete rootfs"
+Processing range v5.0-rc8..v5.0
+1c163f4c7b3f621efff9b28a47abb36f7378d783 Linux 5.0
+c7c0d8df0b94a67377555a550b8d66ee2ad2f4ed tee: optee: add missing of_node_put after of_device_is_available
+2216322919c8608a448d7ebc560a845238a5d6b6 drm: Block fb changes for async plane updates
+5c27ff5db1491a947264d6d4e4cbe43ae6535bae mmc: tmio_mmc_core: don't claim spurious interrupts
+0a1d52994d440e21def1c2174932410b4f2a98a1 mm: enforce min addr even if capable() in expand_downwards()
+53a41cb7ed381edee91029cdcabe9b3250f43f4d Revert "x86/fault: BUG() when uaccess helpers fault on kernel addresses"
+v5.0-rc1..v5.0-rc2: 27 of 246
+v5.0-rc2..v5.0-rc3: 19 of 407
+v5.0-rc3..v5.0-rc4: 27 of 305
+v5.0-rc4..v5.0-rc5: 3 of 208
+v5.0-rc5..v5.0-rc6: 10 of 317
+v5.0-rc6..v5.0-rc7: 7 of 184
+v5.0-rc7..v5.0-rc8: 8 of 210
+v5.0-rc8..v5.0: 6 of 88
+
+

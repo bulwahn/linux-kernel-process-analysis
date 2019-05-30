@@ -1,0 +1,119 @@
+Processing range v5.1-rc3..v5.1-rc4
+fbe8758f931ff5468aaeb4b304fc3edb70c908d6 Revert "ARM: dts: nomadik: Fix polarity of SPI CS"
+25adf50fe25d506d3fc12070a5ff4be858a1ac1b io_uring: fix double free in case of fileset regitration failure
+c2f8d7cb32cd95e3005bed58ce02afa686b9f357 Revert: parisc: Use F_EXTEND() macro in iosapic code
+e91455217d8c7b128c158432869f6e697283f3ec mm/util.c: fix strndup_user() comment
+acaf892ecbf5be7710ae05a61fd43c668f68ad95 sh: fix multiple function definition build errors
+4ed319c6ac08e9a28fca7ac188181ac122f4de84 dm integrity: fix deadlock with overlapping I/O
+bcb44433bba5eaff293888ef22ffa07f1f0347d6 dm: disable DISCARD if the underlying storage no longer supports it
+75ae193626de3238ca5fb895868ec91c94e63b1b dm: revert 8f50e358153d ("dm: limit the max bio size as BIO_MAX_PAGES * PAGE_SIZE")
+0d74e6a3b6421d98eeafbed26f29156d469bc0b5 dm integrity: change memcmp to strncmp in dm_integrity_ctr
+c7084edc3f6d67750f50d4183134c4fb5712a5c8 tty: mark Siemens R3964 line discipline as BROKEN
+ad51c46eec739c18be24178a30b47801b10e0357 drm/amd/amdgpu: fix PCIe dpm feature issue (v3)
+5eed7898626bedd6405421550c0c6e8ab9591bb2 flow_dissector: rst'ify documentation
+b506bc975f60f06e13e74adb35e708a23dc4e87c tcp: fix a potential NULL pointer dereference in tcp_sk_exit
+0f71d089c912769251c992b8f7dcd508a472fe10 tools/power turbostat: update version number
+5ea7647b333f3580697edaaf2b17a2f6d29a82f1 tools/power turbostat: Warn on bad ACPI LPIT data
+8173c336989c1a12290cd023969df2775b2df34d tools/power turbostat: Add checks for failure of fgets() and fscanf()
+0a42d235e50d677775056324d0762dd102a9ebb0 tools/power turbostat: Do not display an error on systems without a cpufreq driver
+6de68fe15a0fcd0e887d73bd7a549e4dc6446481 tools/power turbostat: Add Die column
+937807d355a375393557674e3233662a7131c46b tools/power turbostat: Add Icelake support
+31a1f15cea5e56fe8151ddf01278cb60c325626b tools/power turbostat: Cleanup CNL-specific code
+562855eeb1136009bc9d597116ac5829bf82dd06 tools/power turbostat: Cleanup CC3-skip code
+df2f677dee3ce4afda7ee561dd4f321c40320afd tools/power turbostat: Restore ability to execute in topology-order
+1d71670e5e09680202c975c2332bcd2b64e8091f mfd: sc27xx: Use SoC compatible string for PMIC devices
+ca567eb2b3f014d5be0f44c6f68b01a522f15ca4 SMB3: Allow persistent handle timeout to be configurable on mount
+153322f7536a181e4d1b288aa6f01c0ce65f5c7c smb3: Fix enumerating snapshots to Azure
+a9339b7855094ba11a97e8822ae038135e879e79 aio: keep io_event in aio_kiocb
+833f4154ed560232120bc475935ee1d6a20e159f aio: fold lookup_kiocb() into its sole caller
+
+
+fbe8758f931ff5468aaeb4b304fc3edb70c908d6 Revert "ARM: dts: nomadik: Fix polarity of SPI CS"
+ASSESSMENT: REVERT
+DETAILS:
+  - original patch: <20190318153122.10257-1-linus.walleij@linaro.org> ("[PATCH] ARM: dts: nomadik: Fix polarity of SPI CS")
+  - author of original patch requested to revert the patch in the response to the patch submission
+    - <CACRpkdaxjHh7ZyU3DSbMX=Vi-sOL-L8VXQxDSHTMtqj23an22Q@mail.gmail.com> ("Re: [PATCH] ARM: dts: nomadik: Fix polarity of SPI CS")
+  - was mentioned in pull request from Olof Johansson to Linus
+    - <20190407225020.64gf2b57mv47vfuv@localhost> ("[GIT PULL] ARM: SoC fixes")
+    - see also: https://lkml.org/lkml/2019/4/7/163
+TODO:
+  - OTHER: Olof Johansson is not mentioned in MAINTAINERS. Is that intended?
+
+25adf50fe25d506d3fc12070a5ff4be858a1ac1b io_uring: fix double free in case of fileset regitration failure
+ASSESSMENT: OFF-LIST PATCH
+  - not found in gmail archive and with google search
+  - Jens Axboe <axboe@kernel.dk> is author, committer and IO_URING maintainer
+  - mentioned in pull request from Jens Axboe to Linus
+    - <1804e67f-8ec6-1188-6522-467ac8e6be20@kernel.dk> ("[GIT PULL] Block fixes for 5.1-rc4")
+TODO:
+  - CONFIRMATION MAIL: Jens Axboe <axboe@kernel.dk>
+
+c2f8d7cb32cd95e3005bed58ce02afa686b9f357 Revert: parisc: Use F_EXTEND() macro in iosapic code
+ASSESSMENT: INLINE PATCH
+MESSAGE-ID:
+
+  - see also: https://marc.info/?l=linux-parisc&m=155294659024065&w=2
+TODO:
+
+e91455217d8c7b128c158432869f6e697283f3ec mm/util.c: fix strndup_user() comment
+ASSESSMENT: INLINE PATCH
+MESSAGE-ID: <20190404121044.a38ba5895a485abcdc57f297@linux-foundation.org>
+DETAILS:
+  - Andrew Morton <akpm@linux-foundation.org> is author and XXX maintainer
+  - <20190404121044.a38ba5895a485abcdc57f297@linux-foundation.org> ("Re: [PATCH 1/2] fsl_hypervisor: dereferencing error pointers in ioctl")
+    - <kernel-janitors.vger.kernel.org>
+
+
+acaf892ecbf5be7710ae05a61fd43c668f68ad95 sh: fix multiple function definition build errors
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID:
+  - found here https://lkml.org/lkml/2019/4/2/1058
+  - patch hunk header
+
+
+c7084edc3f6d67750f50d4183134c4fb5712a5c8 tty: mark Siemens R3964 line discipline as BROKEN
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not found in gmail archive and with google search
+  - Greg Kroah-Hartman <gregkh@linuxfoundation.org> is author
+  - Linus is committer
+  - commit message mentions 
+  - identicate some private discussions on a dedicated mailing list
+TODO:
+  - CONFIRMATION MAIL: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+
+ad51c46eec739c18be24178a30b47801b10e0357 drm/amd/amdgpu: fix PCIe dpm feature issue (v3)
+ASSESSMENT: NOT MATCHED
+DETAILS:
+  - patch was sent as attachment
+  - see in "[PATCH] drm/amd/amdgpu: fix Polaris10 PCIe dpm feature issue."
+
+
+5eed7898626bedd6405421550c0c6e8ab9591bb2 flow_dissector: rst'ify documentation
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID:
+DETAILS:
+  - not matched due to a renaming
+  - https://marc.info/?l=linux-netdev&m=155432480407827&w=2
+
+
+b506bc975f60f06e13e74adb35e708a23dc4e87c tcp: fix a potential NULL pointer dereference in tcp_sk_exit
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - https://lkml.org/lkml/2019/4/1/294
+  - Patch did not appear on the mailing list due to some technical problem?
+
+
+1d71670e5e09680202c975c2332bcd2b64e8091f mfd: sc27xx: Use SoC compatible string for PMIC devices
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <3d1f18412a927f69c733b6ed31659b7770610442.1550062410.git.baolin.wang@linaro.org>
+DETAILS:
+  - https://lore.kernel.org/patchwork/patch/1041631/
+  - ./pasta compare '<3d1f18412a927f69c733b6ed31659b7770610442.1550062410.git.baolin.wang@linaro.org>' (displays patch)
+  - ./pasta compare '<3d1f18412a927f69c733b6ed31659b7770610442.1550062410.git.baolin.wang@linaro.org>' 1d71670e5e09680202c975c2332bcd2b64e8091f
+    1.00 message and 0.00 diff, diff lines ratio: 1.00
+  - hunk header mismatch
+  - also date mismatch
+  - is there a v2 patch that was sent later?
+

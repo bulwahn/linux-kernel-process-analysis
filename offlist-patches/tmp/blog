@@ -1,0 +1,245 @@
+
+
+Motivation
+
+People (Experts?) not so familiar with the open-source development
+process might claim that open-source software
+induces a security risk as any third party may provide
+a change to kernel sources that could maliciously
+insert a security vulnerability or even worse, a backdoor
+into the Linux kernel.
+
+Of course,
+
+various maintainers are observing and critically reviewing
+for central and maintained elements in the kernel,
+so a contribution from a new contributor cannot .
+
+(
+Or could that happen? That is the question we will answer
+in this article.
+)
+
+Linux Kernel Developers
+so called "off-list patches".
+
+Besides security, functional safety standards request ...
+
+Beyond the opinions of security and safety standards,
+
+measurements of software development process is a central part of
+a sophisticated software quality measurement, assessment and assurance.
+(also refer to Stephen Kan's book or other related ones?)
+
+The Linux kernel is an important project that deserves to 
+
+The Linux kernel is a project with a large codebase, i.e., XX million lines of code
+and XX million lines of documentation as of version X.XX, and
+a high change rate, i.e., .
+
+One of central assumptions why this development despite these factors
+produces a high-quality product:
+
+  - Review
+
+  - Meritocratic Structure with long-term community members engaged and in
+    central positions observing/controlling development 
+
+  - ...
+
+(TODO: find a reference, this is nothing that we just observe.)
+
+(sloganized as "Given enough eyeballs, every bug is shallow.")
+
+Well, but the controversy is true as well:
+
+If there is not enough review and even the most obvious bugs slip through.
+
+In the following, 
+
+In further investigations, we will then consider the other two aspects as well.
+
+So, we will continue to assess the following hypothesis:
+
+Every patch included in the repository has undergone sufficient review on the .
+Sufficient review means that the patch was proposed on the mailing list,
+generally discussed and acknowledged by knowledgable developers considering
+its complexity of change and impact.
+The knowledge of developers can be derived from their role in the kernel development,
+the past contributions to the different parts of the kernel source code and their
+engagement in code reviews.
+
+To get started with this admitingly complex investigation, we
+first want to determine a quite simple general precondition for this
+criteria, namely:
+
+Every patch included in the repository was sent as patch file for wider discussion
+to at least one public mailing list.
+
+--
+
+TODO: Introduction to Pasta
+
+We will implement this using the capabilities in Pasta as follows:
+
+Based on a generally applicable metric for the similarity of two patches, PaStA computes equivalence classes of similar patches.
+
+(TODO: equivalence classes or clusters? what is the right terminology)
+
+Hence, PaStA can relate patches that have been sent on the mailing list and patches that are included in the
+repository with high precision and recall, even when these patches were slightly modified by the maintainers
+with commit message modifications or minor adjustments to match to the evolving code base.
+
+We now just need to employ (nutzen) this tool and its analytic capabilities
+with a short python script.
+
+The high-level algorithm is as follows:
+
+For each commit of a Linux kernel release:
+  Consider if the commit is a known exceptional case,
+  i.e., it is a merge commit, a revert commit or a release tag commit;
+  those are generally not subject to review on the mailing lists.
+
+  If not, then check if there is at least one similar patch on one of the mailing list.
+  If so, note that patch being subject to review.
+  If not, note that patch escaping the general review.
+
+With these recordings, we first can determine the percentage of unreviewed patches
+and we may check the unreviewed patches in detail,
+as we would generally assume that the number of those patches is quite low.
+
+To implement this with PaStA, we now need to do the following steps:
+
+1. set up the required data sources
+
+2. compute the equivalence classes
+
+3. implement the high-level algorithm
+
+4. assess the patches that have not went through a review
+
+Step 0: Set up Pasta
+
+Step 1: Set up the required data sources
+
+What the mailing lists for kernel patches...
+
+Linux kernel mailing list; this is the obvious, but not all patches are sent there.
+
+
+To obtain a complete list, MAINTAINERS file.
+
+It includes entries for each file/directory in the kernel
+with a reference to the relevant people and mailing lists
+to send a patch to.
+
+Available data sources:
+  - lore.kernel.org archives
+  - patchwork crawling
+  - collecting mails by own subscription
+
+Setup of mailing list archives from lore.kernel.org (public inbox format)
+
+...
+
+lore.kernel.org provides the complete data for XX prominent mailing lists.
+
+We further subscribed to XX mailing lists by going through the whole MAINTAINERS list
+and subscribing to the public mailing lists in a few hours of manual effort.
+
+Once the collection of emails is set up, I can simply export this
+
+For others of interest, this mailbox export can be made available.
+
+Step 2: Compute the equivalence classes
+
+pasta sync
+pasta sync -mbox
+pasta analyse rep
+pasta rate
+pasta analyse upstream
+pasta rate
+
+(
+At the current stage, these commands are really a wild guess to get the equivalence classes.
+TODO: also point out that reproducing these results requires a machine with significant memory
+)
+
+Step 3: Implement the high-level algorithm
+
+(TODO: simply describe and show the python code, I would not expect it to exceed thirty lines in
+the end anyway.)
+
+Step 4: Assess the patches that have not went through a review
+
+In our assessment, we would expect to see the following "patterns":
+
+
+A commit is considered to be included due to an offlist patch due to the following reasons:
+
+1. the patch corresponding to the commit has been sent to a public mailing list, but the patch is not
+our collected dataset of patches
+
+Data sources/References in the web that are suitable to manually determine that the
+patch email was sent to a public mailing list.
+These sources that were used to confirm the situation manually are however not suitable
+for automatic extraction for an mail archive to be processed in step 1.
+
+This generally indicates that more effort needs to be put in data collection.
+
+New text:
+Given that for some mailing list addresses, it was not clear if one could subscribe
+to them, some emails might very well gone under the radar of our data collection.
+
+2. the patch email and commit are both in the git repository and set of emails, but the
+classification did not match them.
+
+This case would indicate that the patch-email-to-commit matching can be improved
+In case there are multiple similar findings of such kind that would allow
+to handle specific typical patterns better.
+
+3. the commit has in fact not been sent to the mailing list.
+
+
+This case is of course the interesting one considering if review has actually happened
+before the patch was included in the git repository.
+
+How many are in the different classes?
+
+Results of the assessment:
+
+- Some important mailing lists are missing. (TODO: New assessment are everything is collected.)
+
+- The metric and weights in Pasta are suitable for such an analysis.
+  As we do not assess the commits that have been matched, we cannot
+  make any statements about precision.
+
+- 
+
+Conclusion
+
+  - The overwhelming majority of patches have been subject to a review.
+
+  - The patches that have not went through a review : ...
+
+  -
+(Future work)
+We would like to continue the detailed assessment of the review depth that
+patches on the mailing list have went through.
+This will require further metrics:
+
+  - Metric for the complexity and impact of a patch (Patch Complexity)
+  - Metric for the level of engagement of a developer in a review (Eng)
+  - Metric for the competence/knowledge of a developer (Comp)
+
+If we take those three metrics, we may compute:
+
+Depth_review = (\Sum (all reviewers) Eng * Comp) / Patch Complexity  (Normalized depth review)
+
+If this depth review is below a critical threshold, we would consider this patch to be not sufficiently
+reviewed and could determine the root cause of the lesser review,
+and indicate root causes to the kernel community where the review expectations
+and the actual implementation systematically differ according to the observations
+and measurements.
+(The details of this analysis will be worked out and presented in future work.)
+

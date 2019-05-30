@@ -1,0 +1,118 @@
+
+Notes of assessment of v5.1-rc1..v5.1-rc2
+
+led to this refinement:
+
+  - include lkml-7 and linux-arm-kernel-1 as new data sources
+
+v5.1-rc1..v5.1-rc2: 91 of 258
+
+
+b9a7b8831600afc51c9ba52c05f12db2266f01c7 sched/fair: Skip LLC NOHZ logic for asymmetric systems
+
+
+  <20190117153411.2390-6-valentin.schneider@arm.com>
+  https://lore.kernel.org/patchwork/patch/1033028/
+  ./pasta compare '<20190117153411.2390-6-valentin.schneider@arm.com>' b9a7b8831600afc51c9ba52c05f12db2266f01c7
+
+  - too different, maybe there is a later version sent?
+
+Later version:
+  - confirmation on https://lore.kernel.org/patchwork/patch/1049130/
+  - Message-ID: <20190211175946.4961-4-valentin.schneider@arm.com>
+
+  - hunk header is different, as noinline was deleted in the meantime between author date and commit date
+
+---
+
+8c11a607d1d9cd6e7f01fd6b03923597fb0ef95a SMB3: Fix SMB3.1.1 guest mounts to Samba
+
+ASSESSMENT: INLINE PATCH
+
+DETAILS:
+  - found on https://www.spinics.net/lists/linux-cifs/msg16748.html
+  - inline patch was considered invalid.
+  - git grep '<CAH2r5ms_Md9UOsM5x0ACamTz2Zhiu0+HVVzZJF2PGzqyXNY_1g@mail.gmail.com>'
+    linux/resources/mbox/invalid/2:<CAH2r5ms_Md9UOsM5x0ACamTz2Zhiu0+HVVzZJF2PGzqyXNY_1g@mail.gmail.com>
+TODO:
+  - PASTA: Consider how to handle inline patches properly?
+
+---
+
+cc5d04d840d62d7c75e268c51da7cd0be2ee03c0 auxdisplay: charlcd: make backlight initial state configurable
+
+MESSAGE-ID: <20190301184816.784-3-mans@mansr.com>
+
+./pasta compare '<20190301184816.784-3-mans@mansr.com>'
+
+https://lore.kernel.org/patchwork/patch/1047216/
+https://lkml.org/lkml/2019/3/1/594
+
+TODO:
+  - add lkml-7
+
+
+---
+
+Processing range v5.1-rc1..v5.1-rc2
+266d63a7d9d48c6d5dee486378ec0e8c86c4d74a x86/cpufeature: Fix various quality problems in the <asm/cpu_device_hd.h> header
+b41fdc4a7bf9045e4871c5b15905ea732ffd044f irqchip/gic: Drop support for secondary GIC in non-DT systems
+cf7d624f8dcc9b833a8489208b6ef6dcc5dd308b cifs: update internal module version number
+8bc086899816214fbc6047c9c7e15fcab49552bf powerpc/mm: Only define MAX_PHYSMEM_BITS in SPARSEMEM configurations
+0ecc471a2cb7d4d386089445a727f47b59dc9b6e arm64: kpti: Whitelist HiSilicon Taishan v110 CPUs
+efd00c722ca855745fcc35a7e6675b5a782a3fc8 arm64: Add MIDR encoding for HiSilicon Taishan CPUs
+2b42be5eb24564227b15e66f54f088e5a26549c7 udf: Propagate errors from udf_truncate_extents()
+b2d22b6bb33aac10c415e4ba13c8eade201c6f09 fanotify: Allow copying of file handle to userspace
+6dd356d8fc0641a8f0afb6ba457fb9351eea5076 ARC: unaligned: relax the check for gcc supporting -mno-unaligned-access
+fbe025c3eaf5f52060c2820eddb7357363db0d27 ARC: perf: bpok condition only exists for ARCompact
+6f8f89ce1e18de1e391c9c1c14e7738881d1c00c platform/chrome: Fix locking pattern in wilco_ec_mailbox()
+v5.1-rc1..v5.1-rc2: 11 of 258
+
+0ecc471a2cb7d4d386089445a727f47b59dc9b6e arm64: kpti: Whitelist HiSilicon Taishan v110 CPUs
+ASSESSMENT: NOT IN DATASET
+MESSAGE-ID:
+DETAILS:
+  - not in gmail archive
+  - found in patchwork: https://patchwork.kernel.org/patch/10839457/
+
+    1551793258-5095-3-git-send-email-guohanjun@huawei.com
+    [PATCH 2/2] arm64: kpti: Whitelist HiSilicon Taishan v110 CPUs
+  - sent only to this list: linux-arm-kernel@lists.infradead.org
+  - on 2019-03-05
+  - search in public inbox of linux-arm-kernel for commit:
+    - https://git.kernel.org/pub/scm/public-inbox/lists.infradead.org/linux-arm-kernel/0.git/
+      has not been updated in the last five weeks (since 2019-02-27)
+    - no new git public inbox repository for lists.infradead.org/linux-arm-kernel/ visible either
+TODO:
+  - PUBLIC INBOX MAINTENANCE: Contact Konstantin about lists.infradead.org/linux-arm-kernel/
+
+efd00c722ca855745fcc35a7e6675b5a782a3fc8 arm64: Add MIDR encoding for HiSilicon Taishan CPUs
+ASSESSMENT: NOT IN DATASET
+MESSAGE-ID: 1551793258-5095-2-git-send-email-guohanjun@huawei.com ("[PATCH 1/2] arm64: Add MIDR encoding for HiSilicon Taishan CPUs")
+DETAILS:
+  - not in gmail archive
+  - found in patchwork: https://patchwork.kernel.org/patch/10839461/
+  - 1551793258-5095-2-git-send-email-guohanjun@huawei.com (" [PATCH 1/2] arm64: Add MIDR encoding for HiSilicon Taishan CPUs")
+  - sent only to this list: linux-arm-kernel@lists.infradead.org
+  - on 2019-03-05
+  - search in public inbox of linux-arm-kernel for commit:
+    - https://git.kernel.org/pub/scm/public-inbox/lists.infradead.org/linux-arm-kernel/0.git/
+      has not been updated in the last five weeks (since 2019-02-27)
+    - no new git public inbox repository for lists.infradead.org/linux-arm-kernel/ visible either
+TODO:
+  - PUBLIC INBOX MAINTENANCE: Contact Konstantin about lists.infradead.org/linux-arm-kernel/
+
+Then, also include linux-arm-kernel/1.git:
+
+Processing range v5.1-rc1..v5.1-rc2
+266d63a7d9d48c6d5dee486378ec0e8c86c4d74a x86/cpufeature: Fix various quality problems in the <asm/cpu_device_hd.h> header
+b41fdc4a7bf9045e4871c5b15905ea732ffd044f irqchip/gic: Drop support for secondary GIC in non-DT systems
+cf7d624f8dcc9b833a8489208b6ef6dcc5dd308b cifs: update internal module version number
+8bc086899816214fbc6047c9c7e15fcab49552bf powerpc/mm: Only define MAX_PHYSMEM_BITS in SPARSEMEM configurations
+2b42be5eb24564227b15e66f54f088e5a26549c7 udf: Propagate errors from udf_truncate_extents()
+b2d22b6bb33aac10c415e4ba13c8eade201c6f09 fanotify: Allow copying of file handle to userspace
+6dd356d8fc0641a8f0afb6ba457fb9351eea5076 ARC: unaligned: relax the check for gcc supporting -mno-unaligned-access
+fbe025c3eaf5f52060c2820eddb7357363db0d27 ARC: perf: bpok condition only exists for ARCompact
+6f8f89ce1e18de1e391c9c1c14e7738881d1c00c platform/chrome: Fix locking pattern in wilco_ec_mailbox()
+
+

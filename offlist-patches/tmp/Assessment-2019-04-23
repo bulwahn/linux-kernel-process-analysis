@@ -1,0 +1,68 @@
+Processing range v5.1-rc5..v5.1-rc6
+a7b1a4839ff979b4dd4fb6c1ccd31af11de9ca87 SUNRPC: Ignore queue transmission errors on successful transmission
+be549d49115422f846b6d96ee8fd7173a5f7ceb0 scsi: core: set result when the command cannot be dispatched
+74f464e97044da33b25aaed00213914b0edf1f2e io_uring: fix CQ overflow condition
+b19062a567266ee1f10f6709325f766bbcc07d1c io_uring: fix possible deadlock between io_uring_{enter,register}
+3d6770fbd9353988839611bab107e4e891506aad io_uring: drop io_file_put() 'file' argument
+917257daa0fea7a007102691c0e27d9216a96768 io_uring: only test SQPOLL cpu after we've verified it
+3fe3331bb285700ab2253dbb07f8e478fcea2f1b perf/x86/amd: Add event map for AMD Family 17h
+b50776ae011cfd26df3cc2b4af8b2dc3b683e553 locking/atomics: Don't assume that scripts are executable
+b2ecf00631362a83744e5ec249947620db5e240c vt: fix cursor when clearing the screen
+64165b1affc5bc16231ac971e66aae7d68d57f2c mm: swapoff: take notice of completion sooner
+dd862deb151aad2548e72b077a82ad3aa91b715f mm: swapoff: remove too limiting SWAP_UNUSE_MAX_TRIES
+87039546544479d4bedb19d0ea525270c43c1c9b mm: swapoff: shmem_find_swap_entries() filter out other types
+831d2fefdfce757fcea86742220f8cbe7ca51ddd iio: chemical: fix missing Kconfig block for sgp30
+35af0d469c6694c05f06e75c5d75caee9be66122 s390: correct some inline assembly constraints
+6b1f16ba730d4c0cda1247568c3a1bf4fa3a2f2f s390/pkey: add one more argument space for debug feature entry
+16222cfb96b02a4a3e38e52012f2a6304850c3c9 s390/zcrypt: fix possible deadlock situation on ap queue remove
+5712f3301a12c0c3de9cc423484496b0464f2faf s390/3270: fix lockdep false positive on view->lock
+2cc9637ce825f3a9f51f8f78af7474e9e85bfa5f s390/dasd: Fix capacity calculation for large volumes
+eeba1e9cf31d064284dd1fa7bd6cfe01395bd03d afs: Fix in-progess ops to ignore server-level callback invalidation
+21bd68f196ca91fc0f3d9bd1b32f6e530e8c1c88 afs: Unlock pages for __pagevec_release()
+8022c4b95c3793d7ba28ab0701ea15b5deb46e02 afs: Differentiate abort due to unmarshalling from other errors
+8bbad1ba3196814487438d1299cec75de5c74615 gpu: host1x: Program stream ID to bypass without SMMU
+3b9a907223d7f6b9d1dadea29436842ae9bcd76d ipmi: fix sleep-in-atomic in free_user at cleanup SRCU user->release_barrier
+a885bcfd152f97b25005298ab2d6b741aed9b49c ipmi: ipmi_si_hardcode.c: init si_type array to fix a crash
+d6db02a88a4aaa1cd7105137c67ddec7f3bdbc05 nl80211: Add NL80211_FLAG_CLEAR_SKB flag for other NL commands
+8bbad1ba3196814487438d1299cec75de5c74615 gpu: host1x: Program stream ID to bypass without SMMU
+
+
+
+3b9a907223d7f6b9d1dadea29436842ae9bcd76d ipmi: fix sleep-in-atomic in free_user at cleanup SRCU user->release_barrier
+ASSESSMENT: OFF-LIST PATCH
+MESSAGE-ID: 
+DETAILS:
+  - A first patch to address this issue from XXX to XXX was sent on XXX
+    - <155229854905.2133.15708039732382992559.stgit@buzz>
+  - The included patch differs significantly from that provided patch on the mailing list
+
+  - mentioned in pull request ... from to Linus
+
+    <20190417154654.GL4121@minyard.net>
+
+a885bcfd152f97b25005298ab2d6b741aed9b49c ipmi: ipmi_si_hardcode.c: init si_type array to fix a crash
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not found in gmail archive
+  - nothing found with google
+  
+  - mentioned in pull request ... from to Linus
+
+    <20190417154654.GL4121@minyard.net>
+TODO:
+
+
+(check a third patch mentioned in IPMI pull request)
+ipmi: Fix failure on SMBIOS specified devices
+
+
+
+d6db02a88a4aaa1cd7105137c67ddec7f3bdbc05 nl80211: Add NL80211_FLAG_CLEAR_SKB flag for other NL commands
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <1551089240-26588-1-git-send-email-usdutt@codeaurora.org>
+DETAILS:
+  - found in gmail archive
+  - ./pasta compare '<1551089240-26588-1-git-send-email-usdutt@codeaurora.org>' (displays patch)
+  - ./pasta compare '<1551089240-26588-1-git-send-email-usdutt@codeaurora.org>' d6db02a88a4aaa1cd7105137c67ddec7f3bdbc05
+    1.00 message and 0.00 diff, diff lines ratio: 1.00
+  - hunk headers of patch and commit differ

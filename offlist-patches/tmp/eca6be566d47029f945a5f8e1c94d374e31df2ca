@@ -1,0 +1,7 @@
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <20190215204840.20070-4-sean.j.christopherson@intel.com>
+DETAILS:
+  - ./pasta compare '<20190215204840.20070-4-sean.j.christopherson@intel.com>' eca6be566d47029f945a5f8e1c94d374e31df2ca
+    1.00 message and 0.00 diff, diff lines ratio: 0.95
+TODO:
+  - PASTA: investigate first filtering?

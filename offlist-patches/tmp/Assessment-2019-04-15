@@ -1,0 +1,75 @@
+15fab63e1e57be9fdb5eec1bbc5916e9825e9acb fs: prevent page refcount overflow in pipe_buf_get
+8fde12ca79aff9b5ba951fce1a2641901b8d8e64 mm: prevent get_user_pages() from overflowing page refcount
+88b1a17dfc3ed7728316478fae0f5ad508f50397 mm: add 'try_get_page()' helper function
+f958d7b528b1b40c44cfda5eabe2d82760d868c3 mm: make page ref count overflow check tighter and more explicit
+3ec482d15cb986bf08b923f9193eeddb3b9ca69f io_uring: restrict IORING_SETUP_SQPOLL to root
+704236672edacf353c362bab70c3d3eda7bb4a51 tools/io_uring: remove IOCQE_FLAG_CACHEHIT
+af6b61d7ef58099c82d854395a0e002be6bd036c Revert "SUNRPC: Micro-optimise when the task is known not to be sleeping"
+045afc24124d80c6998d9c770844c67912083506 arm64: futex: Fix FUTEX_WAKE_OP atomic ops with non-zero result value
+1d54ad944074010609562da5c89e4f5df2f4e5db perf/core: Fix perf_event_disable_inatomic() race
+c63adb28f6d913310430f14c69f0a2ea55eed0cc ASoC: tlv320aic32x4: Fix Common Pins
+8983eb602af511fc5822f5ff4a82074c68816fd9 ALSA: hda/realtek - Move to ACT_INIT state
+14bc29646639650e38f061fca6f644706cc25034 drm/omap: fix typo
+c1cefe115d1cdc460014483319d440b2f0d07c68 drm/amd/display: fix cursor black issue
+272e5326c7837697882ce3162029ba893059b616 btrfs: prop: fix vanished compression property after failed set
+50398fde997f6be8faebdb5f38e9c9c467370f51 btrfs: prop: fix zstd compression parameter validation
+
+
+v5.1-rc4..v5.1-rc5: 15 of 214
+
+15fab63e1e57be9fdb5eec1bbc5916e9825e9acb fs: prevent page refcount overflow in pipe_buf_get
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not found in gmail archive and nothing found with google
+  - Matthew Wilcox is author, ....
+  - Linus Torvalds is committer
+  - not mentioned in any pull request
+  - commit is about overflow in pipes
+  - mentioned in lwn.net article?
+TODO:
+  - CONFIRMATION MAIL: security patch?
+
+8fde12ca79aff9b5ba951fce1a2641901b8d8e64 mm: prevent get_user_pages() from overflowing page refcount
+
+
+88b1a17dfc3ed7728316478fae0f5ad508f50397 mm: add 'try_get_page()' helper function
+
+
+f958d7b528b1b40c44cfda5eabe2d82760d868c3 mm: make page ref count overflow check tighter and more explicit
+
+
+3ec482d15cb986bf08b923f9193eeddb3b9ca69f io_uring: restrict IORING_SETUP_SQPOLL to root
+  
+  - not found in gmail archive 
+
+
+045afc24124d80c6998d9c770844c67912083506 arm64: futex: Fix FUTEX_WAKE_OP atomic ops with non-zero result value
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not found in gmail archive, nothing found with google
+  - Will Deacon <will.deacon@arm.com> is author, committer and XXX (TODO) maintainer
+  - only found these backports to 5.0 and 4.9
+    - https://lkml.org/lkml/2019/4/15/993
+    - https://lkml.org/lkml/2019/4/15/1301
+  - could not find a public pull request from Will Deacon to Linus mentioning this patch. Check with author.
+TODO:
+  - CONFIRMATION MAIL: Will Deacon <will.deacon@arm.com> (was there a private pull request to Linus?)
+
+8983eb602af511fc5822f5ff4a82074c68816fd9 ALSA: hda/realtek - Move to ACT_INIT state
+ASSESSMENT: NOT MATCHED
+DETAILS:
+  - found in gmail archive
+  - patch was sent as an email attachment:
+    <6FAB7C47BCF00940BB0999A99BE3547A18DBB118@RTITMBSVM07.realtek.com.tw> ("Re: [alsa-devel] alc295_fixup_chromebook function")
+  - mentioned in pull request from Takashi Iwai to Linus
+	[GIT PULL] sound fixes for 5.1-rc5
+    - see also: https://lkml.org/lkml/2019/4/12/123
+TODO:
+  - AUTHOR EMAIL: ask not to send patches as attachment
+
+
+272e5326c7837697882ce3162029ba893059b616 btrfs: prop: fix vanished compression property after failed set
+
+
+50398fde997f6be8faebdb5f38e9c9c467370f51 btrfs: prop: fix zstd compression parameter validation
+
