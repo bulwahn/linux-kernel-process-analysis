@@ -4,5 +4,4 @@ DETAILS:
   - not found on gmail export
   - Google search on commit message header only showed backports to 4.9, 4.19, 4.20
 TODO:
-  - MAIL TO AUTHOR & MAINTAINER:
-    Was this a security patch as hence discussed off-list?
+  - CONFIRMATION MAIL: Was this a security patch as hence discussed off-list?

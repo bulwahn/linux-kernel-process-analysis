@@ -1,8 +1,8 @@
 fbe025c3eaf5f52060c2820eddb7357363db0d27 ARC: perf: bpok condition only exists for ARCompact
-ASSESSMENT: OFFLIST PATCH
+ASSESSMENT: OFF-LIST PATCH
   - not found any sent patch in gmail archive and with google search
+  - Vineet Gupta <vgupta@synopsys.com> is author, committer and ARC maintainer.
   - mentioned in pull request from Vineet Gupta to Linus
-    <84416b56-150b-1725-30de-6ae563862a87@synopsys.com> ("[GIT PULL] ARC updates for 5.1-rc2")
-  - Vineet Gupta <vgupta@synopsys.com> is patch author, committer and ARC maintainer.
+    - <84416b56-150b-1725-30de-6ae563862a87@synopsys.com> ("[GIT PULL] ARC updates for 5.1-rc2")
 TODO:
-  - Confirm with author and maintainer that this is an offlist patch
+  - CONFIRMATION MAIL: Vineet Gupta <vgupta@synopsys.com>

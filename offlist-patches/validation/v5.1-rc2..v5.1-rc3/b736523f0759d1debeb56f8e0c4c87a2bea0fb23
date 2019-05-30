@@ -1,6 +1,6 @@
 b736523f0759d1debeb56f8e0c4c87a2bea0fb23 include/linux/list.h: fix list_is_first() kernel-doc
 ASSESSMENT: NOT MATCHED
-MESSAGE-ID:  <ddce8b80-9a8a-d52d-3546-87b2211c089a@infradead.org>
+MESSAGE-ID: <ddce8b80-9a8a-d52d-3546-87b2211c089a@infradead.org>
 DETAILS:
   - found in gmail archive
   - ./pasta compare '<ddce8b80-9a8a-d52d-3546-87b2211c089a@infradead.org>' (displays patch)

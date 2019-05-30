@@ -10,4 +10,4 @@ DETAILS:
   - was sent to <dri-devel@lists.freedesktop.org> on Mon, 7 Jan 2019 12:41:46 -0500
   - too early: data collection did not exist for dri-devel on Mon, 7 Jan 2019 12:41:46 -0500
 TODO:
-  - Consider if we may use patchwork importer to obtain more data in our dataset?
+  - PASTA: Consider if we may use patchwork importer to obtain more data in our dataset?

@@ -1,0 +1,8 @@
+4d66623cfba0949b2f0d669bd2ae732124c99ded KVM: x86: remove check on nr_mmu_pages in kvm_arch_commit_memory_region()
+ASSESSMENT: NOT IN DATASET
+MESSAGE-ID: <20180927003126.32359-1-richard.weiyang@gmail.com>
+DETAILS:
+  - found a response in gmail archive, sent to kvm@vger.kernel.org
+    - <20190205122958.2jlbeywkhgai5eow@master> ("Re: [PATCH v2] KVM: x86: remove check on nr_mmu_pages in kvm_arch_commit_memory_region()")
+  - patch itself was sent on Thu, 27 Sep 2018 00:33:07 +0000 (UTC); so before we were recording kvm@vger.kernel.org
+  - also found on patchwork: https://patchwork.kernel.org/patch/10617063/

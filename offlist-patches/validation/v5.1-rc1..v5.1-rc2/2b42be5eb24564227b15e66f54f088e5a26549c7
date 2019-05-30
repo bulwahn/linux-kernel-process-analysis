@@ -1,6 +1,11 @@
 2b42be5eb24564227b15e66f54f088e5a26549c7 udf: Propagate errors from udf_truncate_extents()
-ASSESSMENT: OFFLIST PATCH
+ASSESSMENT: OFF-LIST PATCH
 DETAILS:
-  - TODO
+  - not found in gmail archive, nothing found with google
+  - Jan Kara <jack@suse.cz> is author, committer and UDF FILESYSTEM maintainer
+  - mentioned in pull request from Jan Kara to Linus
+    - <20190321090338.GB29086@quack2.suse.cz> ("[GIT PULL] udf fixes for v5.1-rc2")
+    - see also: https://lkml.org/lkml/2019/3/21/135
 TODO:
-  - Check if commit "udf: Fix crash on IO error during truncate" is also an offlist patch and what pasta matched that one against
+  - CONFIRMATION MAIL: Jan Kara <jack@suse.cz>
+  - OTHER: Check if commit "udf: Fix crash on IO error during truncate" is actually also an offlist patch and what pasta matched that one against

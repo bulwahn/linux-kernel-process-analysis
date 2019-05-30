@@ -1,0 +1,29 @@
+Dear ,
+
+I observe the Linux kernel development and I have assessed that the
+following commits in the git repository are due to off-list patches, i.e.,
+the patches have not been sent on any known public mailing list
+before inclusion in the torvalds git repository.
+
+<List of commits>
+
+Can you confirm that these commits are in fact off-list patches?
+
+(Optional: if I discovered some systematic behavior:
+Can you confirm that <systematic behavior>? 
+)
+
+More details to conclude that these commits are due to off-list patches is here:
+
+<link to github>
+
+Some background information on this assessment project is here:
+
+<link to webpage with background information>
+
+If you would like not to be contacted with such questions in the future,
+please let me know.
+
+Thanks for your cooperation and best regards,
+
+Lukas

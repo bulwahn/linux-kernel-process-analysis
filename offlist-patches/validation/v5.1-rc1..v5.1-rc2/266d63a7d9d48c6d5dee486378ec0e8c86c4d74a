@@ -2,8 +2,9 @@
 ASSESSMENT: OFF-LIST PATCH
 DETAILS:
   - not in gmail archive, nothing found with google
-  - Ingo Molnar is author, committer and one of the tip maintainers
-  - mentioned in pull request https://lkml.org/lkml/2019/3/24/327 from Thomas to Linus
-  - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=266d63a7d9d48c6d5dee486378ec0e8c86c4d74a
+  - Ingo Molnar <mingo@kernel.org> is author, committer and one of the tip maintainers
+  - mentioned in pull request from Thomas Gleixner to Linus
+    - <155343674152.28403.17446642093501773007.tglx@nanos.tec.linutronix.de> ("[GIT pull] x86 updates for 5.1")
+    - see also: https://lkml.org/lkml/2019/3/24/327
 TODO:
-  - MAIL: Confirm that this was included in tip as offlist patch
+  - CONFIRMATION MAIL: Ingo Molnar <mingo@kernel.org>, Thomas Gleixner <tglx@linutronix.de>

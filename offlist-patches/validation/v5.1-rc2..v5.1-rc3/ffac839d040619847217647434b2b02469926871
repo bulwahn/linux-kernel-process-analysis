@@ -1,0 +1,10 @@
+ffac839d040619847217647434b2b02469926871 KVM: selftests: disable stack protector for all KVM tests
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <20190313194314.5664-1-sean.j.christopherson@intel.com>
+DETAILS:
+  - found in gmail archive
+  - ./pasta compare '<20190313194314.5664-1-sean.j.christopherson@intel.com>' (displays patch)
+  - ./pasta compare '<20190313194314.5664-1-sean.j.christopherson@intel.com>' ffac839d040619847217647434b2b02469926871
+    1.00 message and 0.89 diff, diff lines ratio: 0.50
+  - probably not considered a match because the patch was a one-line change and the commit a two-line change.
+  - The follow-up messages mentions to disable pie, which Paolo Bonzini probably just did when applying the patch.

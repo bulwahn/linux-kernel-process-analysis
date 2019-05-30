@@ -40,7 +40,7 @@ MESSAGE-ID: [optional, reasonable when NOT MATCHED or NOT IN DATASET]
 DETAILS:
 CONFIDENCE: [optional]
 TODO:
-  - (MAIL TO AUTHOR & MAINTAINER | PASTA | GIT HISTORY | DATASET):
+  - (CONFIRMATION MAIL | PASTA | PATCH INVESTIGATION | OTHER):
 ```
 
 In these files, commits are referred to in this format:

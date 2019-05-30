@@ -11,4 +11,4 @@ DETAILS:
   - a complete hunk is missing?
   - this could also be a mistake when applying the patch?
 TODO:
-  - GIT HISTORY: Re-apply the patch email before this commit to find out why the hunk was not applied.
+  - PATCH INVESTIGATION: Re-apply the patch email on this commit's parent to find out why the hunk was not applied.

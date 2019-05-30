@@ -1,0 +1,11 @@
+7cf77b273a8fc51e7de622fa6691abd4436a9a6b drm/tegra: hub: Fix dereference before check
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not found in gmail archive and nothing found with google search
+  - Thierry Reding <treding@nvidia.com> is author, committer and TEGRA maintainer
+  - was mentioned in pull request from Thierry Reding <thierry.reding@gmail.com> (TEGRA maintainer) to Dave Airlie <airlied@gmail.com> (DRM maintainer)
+    - <20190322131517.825-1-thierry.reding@gmail.com> ("[GIT PULL] drm/tegra: Fixes for v5.1-rc2")
+  - was mentioned in pull request from Dave Airlie to Linus
+    - <CAPM=9tw-yPL8ZOxNO7zu3scG8PjAuKOwR=7JMDJ_93M8avVkOA@mail.gmail.com> ("[git pull] drm fixes for 5.1-rc3")
+TODO:
+  - CONFIRMATION MAIL: Thierry Reding <thierry.reding@gmail.com>

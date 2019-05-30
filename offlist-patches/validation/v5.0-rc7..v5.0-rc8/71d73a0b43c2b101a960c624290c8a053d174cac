@@ -3,8 +3,8 @@ ASSESSMENT: OFF-LIST PATCH
 DETAILS:
   - Not found in gmail export
   - Not found any email with google search
-  - Author Helge Deller <deller@gmx.de> is parisc maintainer.
-  - PR from Helge Deller to Linus:
+  - Helge Deller <deller@gmx.de> is author, committer and parisc maintainer.
+  - mentioned in pull request from Helge Deller to Linus:
     <20190222081725.GA10558@ls3530.dellerweb.de> ("[GIT PULL] parisc architecture fixes for kernel v5.0")
 TODO:
-  - MAIL TO AUTHOR & MAINTAINER: ask Helge Deller to confirm that this is an off-list patch
+  - CONFIRMATION MAIL: Helge Deller <deller@gmx.de>

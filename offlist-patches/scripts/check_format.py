@@ -15,6 +15,8 @@ print("checking %s" % sys.argv[1])
 filename = sys.argv[1]
 current_section = ''
 next_section = ''
+assessment = ''
+message_id_present = False
 
 with open(filename) as file:
     for cnt, line in enumerate(file):
@@ -25,8 +27,9 @@ with open(filename) as file:
             else:
                 print('first line shall be "<git sha> <commit message header>": %s' % line)
         if cnt == 1:
-            if re.match(r"^ASSESSMENT: (OFF-LIST PATCH|NOT MATCHED|NOT IN DATASET|REVERT|RELEASE COMMIT|UNCLEAR)", line):
+            if re.match(r"^ASSESSMENT: (OFF-LIST PATCH|NOT MATCHED|NOT IN DATASET|REVERT|INLINE PATCH|RELEASE COMMIT|UNCLEAR)", line):
                 #print("second line looks good")
+                assessment = 'SOME VALUE'
                 pass
             else:
                 print("Invalid value for ASSESSMENT: %s" % line)
@@ -36,22 +39,28 @@ with open(filename) as file:
                 pass
             else:
                 print("looks different: %s" %line)
-
-        if line == "TODO:":
+            message_id_present = True
+        if line == "TODO:\n":
             # print("now in TODO section")
             next_section = "TODO"
-        if re.match(r"^DETAILS:
+
+        # if re.match(r"^DETAILS:", line):
         if current_section == "TODO":
             if (re.match(r"^    .*$", line)):
                 # print("looks good")
                 pass
             else:
-                if (re.match(r"^  - (MAIL TO AUTHOR & MAINTAINER|PASTA|GIT HISTORY|DATASET):", line)):
+                if (re.match(r"^  - (CONFIRMATION MAIL|PASTA|PATCH INVESTIGATION|OTHER):", line)):
                     # print("TODO section looks good")
                     pass
                 else:
                     print("TODO section broke: %s" % line)
         current_section = next_section
+
+
+if not message_id_present and (assessment == "NOT MATCHED" or assessment == "NOT IN DATASET" or assessment == "INLINE PATCH"):
+    print("For assessment %s, provide a MESSAGE-ID" % assessment)
+
 #<git sha> <commit message header>
 #ASSESSMENT: (OFF-LIST PATCH | NOT MATCHED | NOT IN DATASET | REVERT | INLINE PATCH | RELEASE COMMIT | UNCLEAR)
 #MESSAGE-ID: [optional, reasonable when NOT MATCHED or NOT IN DATASET]

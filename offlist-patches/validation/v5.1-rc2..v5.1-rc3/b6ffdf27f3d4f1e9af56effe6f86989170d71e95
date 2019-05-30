@@ -1,12 +1,12 @@
-01396a374c3d31bc5f8b693026cfa9a657319624 s390/zcrypt: revisit ap device remove procedure
+b6ffdf27f3d4f1e9af56effe6f86989170d71e95 s390/cpumf: Fix warning from check_processor_id
 ASSESSMENT: OFF-LIST PATCH
 DETAILS:
   - not found in gmail archive and nothing found with google search
-  - Harald Freudenberger <freude@linux.ibm.com> is author
-  - Ingo Franzki <ifranzki@linux.ibm.com> is reviewer
+  - Thomas Richter <tmricht@linux.ibm.com> is author
+  - Hendrik Brueckner <brueckner@linux.ibm.com> is reviewer
   - Martin Schwidefsky <schwidefsky@de.ibm.com> is committer and S390 maintainer
   - all three work for IBM, probably this was passed around and reviewed internally, not publicly.
   - was mentioned in pull request from Martin Schwidefsky to Linus
     - <20190328095544.1930d8c7@mschwideX1> ("[GIT PULL] s390 patches for 5.1 #2")
 TODO:
-  - CONFIRMATION MAIL: Martin Schwidefsky <schwidefsky@de.ibm.com>, Harald Freudenberger <freude@linux.ibm.com>, Ingo Franzki <ifranzki@linux.ibm.com>
+  - CONFIRMATION MAIL: Martin Schwidefsky <schwidefsky@de.ibm.com>, Thomas Richter <tmricht@linux.ibm.com>, Hendrik Brueckner <brueckner@linux.ibm.com>

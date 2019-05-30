@@ -3,7 +3,7 @@ ASSESSMENT: NOT MATCHED
 MESSAGE-ID: <19432668-ffd3-fbb2-af4f-1c8e48f6cc81@infradead.org>
 DETAILS:
   - https://lore.kernel.org/patchwork/patch/1040234/
-  - $ git grep '19432668-ffd3-fbb2-af4f-1c8e48f6cc81@infradead.org'
+  - git grep '19432668-ffd3-fbb2-af4f-1c8e48f6cc81@infradead.org'
     linux/resources/mbox/index/pubin.lkml-6:2019/02/08 <19432668-ffd3-fbb2-af4f-1c8e48f6cc81@infradead.org> 33b5b9fa3608c993b3fd73ceed36528bf99ef333
   - ./pasta compare '<19432668-ffd3-fbb2-af4f-1c8e48f6cc81@infradead.org>' (displays patch)
   - ./pasta compare '<19432668-ffd3-fbb2-af4f-1c8e48f6cc81@infradead.org>' 2620327852478e695afb2eebe66c354b3bc456cc

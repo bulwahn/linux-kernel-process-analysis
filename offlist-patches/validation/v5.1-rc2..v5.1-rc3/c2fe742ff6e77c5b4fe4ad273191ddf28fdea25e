@@ -1,0 +1,11 @@
+c2fe742ff6e77c5b4fe4ad273191ddf28fdea25e scsi: mpt3sas: Fix kernel panic during expander reset
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <1551702395-15526-1-git-send-email-sreekanth.reddy@broadcom.com>
+DETAILS:
+  - found in gmail archive
+  - ./pasta compare '<1551702395-15526-1-git-send-email-sreekanth.reddy@broadcom.com>' (displays patch)
+  - ./pasta compare '<1551702395-15526-1-git-send-email-sreekanth.reddy@broadcom.com>' c2fe742ff6e77c5b4fe4ad273191ddf28fdea25e
+    0.98 message and 0.00 diff, diff lines ratio: 1.00
+  - mismatching hunk headers, probably the function header lines in that file have been refactored between submission and inclusion
+TODO:
+  - PASTA: Check if hunk headers should get such a crucial weight for matching
