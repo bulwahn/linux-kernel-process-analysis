@@ -1,0 +1,11 @@
+Also consider:
+
+
+THIS WAS MATCHED AGAINST SOMETHING (WHY?):
+5 days	gcc-9: don't warn about uninitialized variable
+5 days	gcc-9: silence 'address-of-packed-member' warning
+
+also look at:
+  https://lkml.org/lkml/2019/5/1/562
+
+Investigate two further commits from Al Viro in his pull request, see first assessment

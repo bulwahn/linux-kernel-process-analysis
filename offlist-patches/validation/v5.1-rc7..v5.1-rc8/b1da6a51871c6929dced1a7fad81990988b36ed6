@@ -1,0 +1,8 @@
+b1da6a51871c6929dced1a7fad81990988b36ed6 fsnotify: Fix NULL ptr deref in fanotify_get_fsid()
+ASSESSMENT: REFINED PATCH
+DETAILS:
+  - Original patch:
+    <20190425075914.22030-1-jack@suse.cz>
+
+  - Patch was refined in discussion with Linus
+  TODO

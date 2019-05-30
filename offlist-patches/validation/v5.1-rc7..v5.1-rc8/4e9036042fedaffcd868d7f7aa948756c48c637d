@@ -1,0 +1,14 @@
+4e9036042fedaffcd868d7f7aa948756c48c637d ufs: fix braino in ufs_get_inode_gid() for solaris UFS flavour
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not found in mail archive, nothing found with google
+  - Al Viro <viro@zeniv.linux.org.uk> is author, committer and FILESYSTEMS (VFS and infrastructure) maintainer.
+  - mentioned in pull request from Al Viro to Linus
+    <20190505021841.GZ23075@ZenIV.linux.org.uk> ("[git pull] vfs.git fixes")
+  - style issues reported on linux-next
+    - <20190502202515.22f72e48@canb.auug.org.au> ("linux-next: Fixes tag needs some work in the vfs tree")
+    - see also: commit 8c8fa6cf8db0151c00a5a5a34c4a927b8f6b8925 ("linux-next: Fixes tag needs some work in the vfs tree") in lkml-7 public inbox
+    - see also: https://lkml.org/lkml/2019/5/2/300
+    - style issue was not repaired
+TODO:
+  - CONFIRMATION MAIL: Al Viro <viro@zeniv.linux.org.uk>

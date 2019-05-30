@@ -1,0 +1,16 @@
+f69e749a49353d96af1a293f56b5b56de59c668a Abort file_remove_privs() for non-reg. files
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <cbdc8071-de76-bb0a-6890-15ef21023a70@tu-dortmund.de>
+DETAILS:
+  - first, found some responses in gmail archive.
+  - found commit 36de2edd2b1a5855cd34b544386fe673217d5931 ("[PATCH] Abort file_remove_privs() for non-reg. files") in lkml-6
+  - patch was sent to
+    - to: Al Viro <viro@zeniv.linux.org.uk>
+    - Cc: Jan Kara <jack@suse.cz>, Horst Schirmeier <horst.schirmeier@tu-dortmund.de>
+    - Cc lists: linux-fsdevel@vger.kernel.org, linux-kernel@vger.kernel.org,
+  - patch is a pgp-signed email
+  - ./pasta compare '<cbdc8071-de76-bb0a-6890-15ef21023a70@tu-dortmund.de>' (does not display patch)
+  - mentioned in pull request from Al Viro to Linus
+    <20190505021841.GZ23075@ZenIV.linux.org.uk> ("[git pull] vfs.git fixes")
+TODO:
+  - PASTA: must handle pgp-signed patches

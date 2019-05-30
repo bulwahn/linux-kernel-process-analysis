@@ -1,0 +1,15 @@
+0700d3d117a7f110ddddbd83873e13652f69c54b ALSA: hda/realtek - Fixed Dell AIO speaker noise
+ASSESSMENT: PATCH AS ATTACHMENT
+MESSAGE-ID: <6FAB7C47BCF00940BB0999A99BE3547A1D764335@RTITMBSVM07.realtek.com.tw>
+DETAILS:
+  - found in gmail archive
+  - From: Kailang <kailang@realtek.com>
+  - To: Takashi Iwai <tiwai@suse.de>, hwang4 <hui.wang@canonical.com>
+  - Cc: alsa-devel@alsa-project.org
+  - applied patch was in attachment
+  - manually checked attachment against commit:
+    - diff is identical
+    - commit message header is identical
+    - commit message is tuned (line length & Fixes tag) by Takashi Iwai
+TODO:
+  - OTHER: ask why patches are sent via attachment

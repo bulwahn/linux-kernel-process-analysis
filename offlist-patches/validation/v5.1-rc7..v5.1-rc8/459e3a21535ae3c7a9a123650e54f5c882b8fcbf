@@ -1,0 +1,5 @@
+459e3a21535ae3c7a9a123650e54f5c882b8fcbf gcc-9: properly declare the {pv,hv}clock_page storage
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not found in mail archive, nothing found with google
+  - Linus Torvalds is author and committer

@@ -1,0 +1,6 @@
+5c8b0b54db22c54f2aec991b388f550d3a927f26 io_uring: have submission side sqe errors post a cqe
+ASSESSMENT:
+DETAILS:
+  - discussed as inline patch:
+    - Re: io_uring: submission error handling
+  TODO

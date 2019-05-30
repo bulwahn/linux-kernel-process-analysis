@@ -1,0 +1,5 @@
+7e74e235bb31a1fefc28d5303da0718b88627ea8 gcc-9: don't warn about uninitialized btrfs extent_type variable
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not found in mail archive, nothing found with google
+  - Linus Torvalds is author and committer

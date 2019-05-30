@@ -1,0 +1,13 @@
+fc834e607ae3d18e1a20bca3f9a2d7f52ea7a2be USB: dummy-hcd: Fix failure to give back unlinked URBs
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <Pine.LNX.4.44L0.1904181307350.1303-100000@iolanthe.rowland.org>
+DETAILS:
+  - found in gmail archive
+  - sender: Alan Stern <stern@rowland.harvard.edu>
+  - was sent to Greg KH <greg@kroah.com> and CC: andreyknvl@google.com, <gustavo@embeddedor.com>, USB list <linux-usb@vger.kernel.org>, <syzkaller-bugs@googlegroups.com>
+  - ./pasta compare '<Pine.LNX.4.44L0.1904181307350.1303-100000@iolanthe.rowland.org>' (displays patch)
+  - ./pasta compare '<Pine.LNX.4.44L0.1904181307350.1303-100000@iolanthe.rowland.org>' fc834e607ae3d18e1a20bca3f9a2d7f52ea7a2be
+    - 1.00 message and 0.00 diff, diff lines ratio: 1.00
+  - only the patch hunk header mismatches: patch contains 40-character prefix of commit hunk header
+TODO:
+  - PASTA: note as hunk header mismatch example in issue tracker

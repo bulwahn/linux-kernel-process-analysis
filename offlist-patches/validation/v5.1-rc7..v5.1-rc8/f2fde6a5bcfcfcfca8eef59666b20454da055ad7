@@ -1,0 +1,10 @@
+f2fde6a5bcfcfcfca8eef59666b20454da055ad7 KVM: VMX: Move RSB stuffing to before the first RET after VM-Exit
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not found in gmail archive, nothing found with google
+  - Rick Edgecombe <rick.p.edgecombe@intel.com> is author
+  - Paolo Bonzini <pbonzini@redhat.com> is committer and KERNEL VIRTUAL MACHINE (KVM) maintainer
+  - mentioned in pull request from Paolo Bonzini to Linus
+    - <20190503214614.21250-1-pbonzini@redhat.com> ("[GIT PULL] KVM fixes for 5.1-rc8 or final")
+TODO:
+  - CONFIRMATION MAIL: Rick Edgecombe <rick.p.edgecombe@intel.com>, Paolo Bonzini <pbonzini@redhat.com>

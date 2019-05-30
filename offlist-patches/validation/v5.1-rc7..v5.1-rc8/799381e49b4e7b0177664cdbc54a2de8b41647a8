@@ -1,0 +1,13 @@
+799381e49b4e7b0177664cdbc54a2de8b41647a8 Documentation: fix netdev-FAQ.rst markup warning
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <eabf639b-0e35-4758-a4ad-b78e85a3eb0f@infradead.org>
+DETAILS:
+  - sender: Randy Dunlap <rdunlap@infradead.org>
+  - was sent to "netdev@vger.kernel.org" <netdev@vger.kernel.org>, David Miller <davem@davemloft.net>
+    and cc: Florian Fainelli <f.fainelli@gmail.com>
+  - ./pasta compare '<eabf639b-0e35-4758-a4ad-b78e85a3eb0f@infradead.org>' (displays patch)
+  - ./pasta compare '<eabf639b-0e35-4758-a4ad-b78e85a3eb0f@infradead.org>' 799381e49b4e7b0177664cdbc54a2de8b41647a8
+    - 1.00 message and 0.00 diff, diff lines ratio: 1.00
+  - only the patch hunk header mismatches: patch contains 40-character prefix of commit hunk header
+TODO:
+  - PASTA: note as hunk header mismatch example in issue tracker

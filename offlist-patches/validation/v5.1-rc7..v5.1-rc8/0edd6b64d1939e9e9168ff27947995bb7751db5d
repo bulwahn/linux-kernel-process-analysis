@@ -1,0 +1,15 @@
+0edd6b64d1939e9e9168ff27947995bb7751db5d bpf: Fix preempt_enable_no_resched() abuse
+ASSESSMENT: INLINE PATCH
+MESSAGE-ID: TODO
+  - see also: https://lkml.org/lkml/2019/4/23/988
+  - Peter Zijlstra <peterz@infradead.org> is author
+  - Alexei Starovoitov <ast@kernel.org> is committer
+  - mentioned in this bpf pull request from Alexei Starovoitov to Dave Miller
+	<20190426002739.1101826-1-ast@kernel.org> ("pull-request: bpf 2019-04-25")
+    From: Alexei Starovoitov <ast@kernel.org>
+    To: <davem@davemloft.net>
+    CC: <daniel@iogearbox.net>, <netdev@vger.kernel.org>, <bpf@vger.kernel.org>, <kernel-team@fb.com>
+  - mentioned in this further pull request
+
+Peter Zijlstra (1):
+      bpf: Fix preempt_enable_no_resched() abuse

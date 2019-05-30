@@ -1,0 +1,18 @@
+4e9036042fedaffcd868d7f7aa948756c48c637d ufs: fix braino in ufs_get_inode_gid() for solaris UFS flavour
+f69e749a49353d96af1a293f56b5b56de59c668a Abort file_remove_privs() for non-reg. files
+ee948837d7fa89127373c139766aacf6b02a9225 [fix] get rid of checking for absent device name in vfs_get_tree()
+f2fde6a5bcfcfcfca8eef59666b20454da055ad7 KVM: VMX: Move RSB stuffing to before the first RET after VM-Exit
+0700d3d117a7f110ddddbd83873e13652f69c54b ALSA: hda/realtek - Fixed Dell AIO speaker noise
+0a29c57b76624723b6b00c027e0e992d130ace49 ALSA: hda/realtek - Add new Dell platform for headset mode
+799381e49b4e7b0177664cdbc54a2de8b41647a8 Documentation: fix netdev-FAQ.rst markup warning
+0edd6b64d1939e9e9168ff27947995bb7751db5d bpf: Fix preempt_enable_no_resched() abuse
+817869d2519f0cb7be5b3482129dadc806dfb747 io_uring: drop req submit reference always in async punt
+5c8b0b54db22c54f2aec991b388f550d3a927f26 io_uring: have submission side sqe errors post a cqe
+7e74e235bb31a1fefc28d5303da0718b88627ea8 gcc-9: don't warn about uninitialized btrfs extent_type variable
+459e3a21535ae3c7a9a123650e54f5c882b8fcbf gcc-9: properly declare the {pv,hv}clock_page storage
+b1da6a51871c6929dced1a7fad81990988b36ed6 fsnotify: Fix NULL ptr deref in fanotify_get_fsid()
+c114944d7d67f24e71562fcfc18d550ab787e4d4 USB: w1 ds2490: Fix bug caused by improper use of altsetting array
+ef61eb43ada6c1d6b94668f0f514e4c268093ff3 USB: yurex: Fix protection fault after device removal
+fc834e607ae3d18e1a20bca3f9a2d7f52ea7a2be USB: dummy-hcd: Fix failure to give back unlinked URBs
+c01c348ecdc66085e44912c97368809612231520 USB: core: Fix unterminated string returned by usb_string()
+80871482fd5cb1cb396ea232237a7d9c540854f9 x86: make ZERO_PAGE() at least parse its argument

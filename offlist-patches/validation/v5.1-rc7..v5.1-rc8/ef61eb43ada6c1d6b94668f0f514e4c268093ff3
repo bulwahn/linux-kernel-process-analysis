@@ -1,0 +1,12 @@
+ef61eb43ada6c1d6b94668f0f514e4c268093ff3 USB: yurex: Fix protection fault after device removal
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <Pine.LNX.4.44L0.1904231446530.1461-100000@iolanthe.rowland.org>
+DETAILS:
+  - sender: Alan Stern <stern@rowland.harvard.edu>
+  - was sent to Greg KH <greg@kroah.com> and CC: andreyknvl@google.com, <dvyukov@google.com>, USB list <linux-usb@vger.kernel.org>, <rafael@kernel.org>, <syzkaller-bugs@googlegroups.com>
+  - ./pasta compare '<Pine.LNX.4.44L0.1904231446530.1461-100000@iolanthe.rowland.org>' (displays patch)
+  - ./pasta compare '<Pine.LNX.4.44L0.1904231446530.1461-100000@iolanthe.rowland.org>' ef61eb43ada6c1d6b94668f0f514e4c268093ff3
+    - 1.00 message and 0.00 diff, diff lines ratio: 1.00
+  - only the patch hunk header mismatches: patch contains 40-character prefix of commit hunk header
+TODO:
+  - PASTA: note as hunk header mismatch example in issue tracker

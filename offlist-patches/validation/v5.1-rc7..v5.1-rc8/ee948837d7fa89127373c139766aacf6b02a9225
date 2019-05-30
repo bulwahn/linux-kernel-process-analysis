@@ -1,0 +1,10 @@
+ee948837d7fa89127373c139766aacf6b02a9225 [fix] get rid of checking for absent device name in vfs_get_tree()
+ASSESSMENT: OFF-LIST PATCH
+DETAILS:
+  - not found in mail archive, nothing found with google
+  - Al Viro <viro@zeniv.linux.org.uk> is author, committer and FILESYSTEMS (VFS and infrastructure) maintainer.
+  - mentioned in pull request from Al Viro to Linus
+    <20190505021841.GZ23075@ZenIV.linux.org.uk> ("[git pull] vfs.git fixes")
+  - patch commit message violates common style policies
+TODO:
+  - CONFIRMATION MAIL: Al Viro <viro@zeniv.linux.org.uk>

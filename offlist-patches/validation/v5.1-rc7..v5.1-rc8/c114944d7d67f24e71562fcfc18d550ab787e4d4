@@ -1,0 +1,12 @@
+c114944d7d67f24e71562fcfc18d550ab787e4d4 USB: w1 ds2490: Fix bug caused by improper use of altsetting array
+ASSESSMENT: NOT MATCHED
+MESSAGE-ID: <Pine.LNX.4.44L0.1904221112360.1384-100000@iolanthe.rowland.org>
+DETAILS:
+  - sender: Alan Stern <stern@rowland.harvard.edu>
+  - was sent to zbr@ioremap.net, Greg KH <greg@kroah.com> and CC: andreyknvl@google.com, <florian.harbecke@fau.de>, USB list <linux-usb@vger.kernel.org>, <passt@h-hofmeier.de>, <syzkaller-bugs@googlegroups.com>
+  - ./pasta compare '<Pine.LNX.4.44L0.1904221112360.1384-100000@iolanthe.rowland.org>' (displays patch)
+  - ./pasta compare '<Pine.LNX.4.44L0.1904221112360.1384-100000@iolanthe.rowland.org>' c114944d7d67f24e71562fcfc18d550ab787e4d4
+    - 1.00 message and 0.00 diff, diff lines ratio: 1.00
+  - only the patch hunk header mismatches: patch contains 40-character prefix of commit hunk header
+TODO:
+  - PASTA: note as hunk header mismatch example in issue tracker
